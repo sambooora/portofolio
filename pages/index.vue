@@ -8,7 +8,7 @@ useSeo()
       class="-mt-16 sm:-mt-20 md:-mt-24 flex flex-col"
       style="
         min-height: 100vh;
-        background-image: url(/images/hero-bg.png);
+        background-image: url(/images/hero-1.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -31,12 +31,12 @@ useSeo()
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sapiente repellat recusandae ad itaque ex aliquid est corrupti consequatur! Officiis cum voluptate repellat dolorum quisquam ab velit quam fuga provident, assumenda, distinctio doloremque totam laborum repudiandae praesentium tempore aliquid sequi illo similique?</p>
       </div>
       <div class="flex-1 flex items-center justify-center overflow-hidden">
-        <img data-aos="fade-up" src="/images/discov-1.png" class="w-full h-full object-center object-contain" />
+        <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
         <img
           data-aos="fade-up"
           data-aos-delay="300"
-          src="/images/discov-2.png"
-          class="w-full h-full -ml-36 mt-56 object-center object-contain"
+          src="/images/profile-1.JPG"
+          class="w-2/3 h-auto -ml-44 mt-72 object-center object-contain"
         />
       </div>
     </section>
@@ -51,13 +51,12 @@ useSeo()
         data-aos="fade-left"
         class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-center md:text-left p-5 pt-12 md:pt-5"
       >
-        <h4 class="font-medium">LIPOSOMAL ENCAPSULATION</h4>
+        <h4 class="font-medium">Experience</h4>
         <p>
           The Liposomal encapsulation technology is a transport system for the active ingredient that travels
           encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
           active ingredient within the body
         </p>
-        <p><a class="underline mt-4">Read More</a></p>
       </div>
     </section>
 
@@ -74,9 +73,9 @@ useSeo()
               background-repeat: no-repeat;
             "
           >
-            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">Add to Cart $8.00</button>
+            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">See Detail</button>
           </div>
-          <h1 class="text-2xl">Regenerative Serum</h1>
+          <h1 class="text-2xl">Picasso Dashboard</h1>
           <p class="text-lg">With Collagen, Hyaluronic Acid, Soy Lecithin, Honeysuckle Flower and Rosa Damascena</p>
         </div>
         <div class="flex flex-col space-y-4">
@@ -92,7 +91,7 @@ useSeo()
           >
             <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">Add to Cart $8.00</button>
           </div>
-          <h1 class="text-2xl">Hydrating Cream</h1>
+          <h1 class="text-2xl">Picasso Restaurant</h1>
           <p class="text-lg">
             With Water, Glycerin, Propanediol, Cyclopentasiloxane, Dimethicone, Olea Europaea Oil and Betaine
           </p>
@@ -110,7 +109,7 @@ useSeo()
           >
             <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">Add to Cart $8.00</button>
           </div>
-          <h1 class="text-2xl">Restorative Face Mask</h1>
+          <h1 class="text-2xl">Aquifer Landing Page</h1>
           <p class="text-lg">With Natural Cellulose, Pure Water, Disodium EDTA, Xanthan Gum and Sorbitol</p>
         </div>
       </div>

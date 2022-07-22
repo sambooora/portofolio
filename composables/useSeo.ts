@@ -22,7 +22,7 @@ export const useSeo = (data?: SEOData) => {
     }
   }
 
-  const title = ref(data?.title ? `${data?.title} — Aquifer` : 'Aquifer')
+  const title = ref(data?.title ? `${data?.title} — Richie Sambora` : 'Richie Sambora')
   const canonical = ref(`${domain.value}${route.fullPath}`)
   const description = ref(
     data?.description || 'Achieve healthy, rejuvenated skin with our advanced manufacturing technology'
