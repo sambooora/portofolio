@@ -1,6 +1,5 @@
 <script setup lang="ts">
 useSeo()
-const mainStore = useMainStore()
 </script>
 
 <template>
@@ -28,9 +27,8 @@ const mainStore = useMainStore()
       class="container mx-auto flex flex-col md:flex-row items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 px-4 min-h-screen"
     >
       <div class="md:w-1/2 prose-lg xl:prose-xl text-center md:text-left">
-        <h3>At Aquifer, we believe in efficient and long-term skin preservation for all genders</h3>
-        <p>Our products contain only natural ingredients that are essential to skin health and inspired by nature</p>
-        <button class="btn btn-secondary px-8">Discover</button>
+        <h3>Tak Kenal maka tak sayang</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sapiente repellat recusandae ad itaque ex aliquid est corrupti consequatur! Officiis cum voluptate repellat dolorum quisquam ab velit quam fuga provident, assumenda, distinctio doloremque totam laborum repudiandae praesentium tempore aliquid sequi illo similique?</p>
       </div>
       <div class="flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="w-full h-full object-center object-contain" />
@@ -164,6 +162,5 @@ const mainStore = useMainStore()
         </div>
       </div>
     </section>
-    <ModalSubcribtion :visible="mainStore.subcribtionVisible"></ModalSubcribtion>
   </div>
 </template>

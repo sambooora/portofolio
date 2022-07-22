@@ -63,7 +63,7 @@ onBeforeUnmount(() => {
               <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-secondary">
                 <li><NuxtLink to="/">Overview</NuxtLink></li>
                 <li><NuxtLink to="/project">Project</NuxtLink></li>
-                <li><NuxtLink to="/sustainability">Sustainability</NuxtLink></li>
+                <li><NuxtLink to="/sustainability">Contact Me</NuxtLink></li>
                 <li><span class="cursor-pointer" @click="mainStore.cartVisible = true">Cart</span></li>
               </ul>
             </div>
@@ -71,7 +71,7 @@ onBeforeUnmount(() => {
           <div class="hidden md:flex flex-row items-center space-x-6">
             <NuxtLink to="/">Overview</NuxtLink>
             <NuxtLink to="/project">Project</NuxtLink>
-            <NuxtLink to="/sustainability">Sustainability</NuxtLink>
+            <NuxtLink to="/sustainability">Contact Me</NuxtLink>
             <span class="cursor-pointer" href="#" @click="mainStore.cartVisible = true">Cart</span>
           </div>
         </div>
