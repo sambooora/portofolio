@@ -35,7 +35,7 @@ useSeo()
         <img
           data-aos="fade-up"
           data-aos-delay="300"
-          src="/images/profile-1.JPG"
+          src="/images/profile-1.jpg"
           class="w-2/3 h-auto -ml-44 mt-72 object-center object-contain"
         />
       </div>
