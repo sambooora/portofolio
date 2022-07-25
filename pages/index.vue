@@ -32,12 +32,12 @@ useSeo()
       </div>
       <div class="flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
-        <!-- <img
+        <img
           data-aos="fade-up"
           data-aos-delay="300"
-          src="/images/profile-1.JPG"
+          src="/images/profile-1.png"
           class="w-2/3 h-auto -ml-44 mt-72 object-center object-contain"
-        /> -->
+        />
       </div>
     </section>
 
