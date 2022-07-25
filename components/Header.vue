@@ -44,7 +44,7 @@ onBeforeUnmount(() => {
     <div class="container mx-auto px-4">
       <div class="navbar px-0">
         <div class="navbar-start">
-          <NuxtLink to="/" class="normal-case text-3xl pl-0 font-semibold">Richie Sambora</NuxtLink>
+          <NuxtLink to="/" class="normal-case text-xl md:text-3xl pl-0 font-semibold">Richie Sambora</NuxtLink>
         </div>
         <div class="navbar-end space-x-6">
           <div class="flex md:hidden">

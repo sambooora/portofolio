@@ -27,10 +27,10 @@ useSeo()
       class="container mx-auto flex flex-col md:flex-row items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 px-4 min-h-screen"
     >
       <div class="md:w-1/2 prose-lg xl:prose-xl text-center md:text-left">
-        <h3>Tak Kenal maka tak sayang</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sapiente repellat recusandae ad itaque ex aliquid est corrupti consequatur! Officiis cum voluptate repellat dolorum quisquam ab velit quam fuga provident, assumenda, distinctio doloremque totam laborum repudiandae praesentium tempore aliquid sequi illo similique?</p>
+        <h3>Overview</h3>
+        <p><span>Richie Mahfud Ahmed Sambora</span>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate alias laudantium, dolor minus voluptatem modi. Laboriosam architecto earum fugit deleniti commodi amet ea laborum voluptates vero quam facere animi rerum vel minus excepturi labore assumenda, modi quisquam accusamus eaque. In, ut?</p>
       </div>
-      <div class="flex-1 flex items-center justify-center overflow-hidden">
+      <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
         <img
           data-aos="fade-up"
@@ -42,7 +42,7 @@ useSeo()
     </section>
 
     <section
-      class="my-24 flex flex-col-reverse md:flex-row items-center space-x-0 md:space-x-8 space-y-6 space-y-reverse md:space-y-0 min-h-screen"
+      class="my-24 flex flex-col-reverse md:flex-row items-center space-x-0 md:space-x-8 space-y-6 space-y-reverse md:space-y-0 min-h-screen overflow-hidden"
     >
       <div class="w-full md:w-1/2 md:h-screen">
         <img src="/images/items-1.png" class="w-full h-full object-cover object-center" />
@@ -55,7 +55,7 @@ useSeo()
         <h4 class="font-medium">Experience</h4>
         <div>
           <h5>2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
-          <p>
+          <p class="p-3">
             The Liposomal encapsulation technology is a transport system for the active ingredient that travels
             encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
             active ingredient within the body
@@ -63,7 +63,7 @@ useSeo()
         </div>
         <div>
           <h5>2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
-          <p>
+          <p class="p-3">
             The Liposomal encapsulation technology is a transport system for the active ingredient that travels
             encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
             active ingredient within the body
@@ -81,7 +81,7 @@ useSeo()
             class="w-full h-full flex justify-center items-center group"
             style="
               background-image: url(/images/product-1.png);
-              min-height: 60vh;
+              min-height: 70vh;
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -97,7 +97,7 @@ useSeo()
             class="w-full h-full flex justify-center items-center group"
             style="
               background-image: url(/images/product-2.png);
-              min-height: 60vh;
+              min-height: 70vh;
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -115,7 +115,7 @@ useSeo()
             class="w-full h-full flex justify-center items-center group"
             style="
               background-image: url(/images/product-3.png);
-              min-height: 60vh;
+              min-height: 70vh;
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -136,7 +136,7 @@ useSeo()
           <img src="/images/hand.png" class="w-full h-full object-cover object-center" />
         </div>
         <div
-        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-center md:text-left p-5 md:p-0 pt-12 md:pt-5"
+        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl md:max-w-3xl text-center md:text-left p-5 md:p-12 pt-12 md:pt-5"
       >
         <div>
           <h4 class="font-medium">Skill Set</h4>
