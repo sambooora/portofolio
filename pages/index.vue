@@ -87,7 +87,6 @@ useSeo()
               background-repeat: no-repeat;
             "
           >
-            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">See Detail</button>
           </div>
           <h1 class="text-2xl">Picasso Dashboard</h1>
           <p class="text-lg">With Collagen, Hyaluronic Acid, Soy Lecithin, Honeysuckle Flower and Rosa Damascena</p>
@@ -103,7 +102,6 @@ useSeo()
               background-repeat: no-repeat;
             "
           >
-            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">See Detail</button>
           </div>
           <h1 class="text-2xl">Picasso Restaurant</h1>
           <p class="text-lg">
@@ -121,7 +119,6 @@ useSeo()
               background-repeat: no-repeat;
             "
           >
-            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">See Detail</button>
           </div>
           <h1 class="text-2xl">Aquifer Landing Page</h1>
           <p class="text-lg">With Natural Cellulose, Pure Water, Disodium EDTA, Xanthan Gum and Sorbitol</p>
