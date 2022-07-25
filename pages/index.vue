@@ -160,8 +160,8 @@ useSeo()
             <h4 class="font-medium">Coding</h4>
             <div class="flex flex-col space-y-5">
               <div>
-                <div>Nuxt - Javascript</div>
-                <progress class="progress w-full" value="79" max="100"></progress>
+                <div>Vue, Nuxt - Javascript</div>
+                <progress class="progress w-full" value="81" max="100"></progress>
               </div>
               <div>
                 <div>Laravel - PHP</div>
