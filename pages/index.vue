@@ -32,12 +32,12 @@ useSeo()
       </div>
       <div class="flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
-        <img
+        <!-- <img
           data-aos="fade-up"
           data-aos-delay="300"
           src="/images/profile-1.JPG"
           class="w-2/3 h-auto -ml-44 mt-72 object-center object-contain"
-        />
+        /> -->
       </div>
     </section>
 
@@ -61,6 +61,7 @@ useSeo()
     </section>
 
     <section class="container mx-auto px-4 py-24 min-h-screen">
+      <h1 class="text-center text-2xl mb-4">Project</h1>
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         <div class="flex flex-col space-y-4">
           <div
@@ -115,7 +116,7 @@ useSeo()
       </div>
     </section>
 
-    <section
+    <!-- <section
       class="my-24 flex flex-col-reverse md:flex-row-reverse items-center space-x-0 md:space-x-8 md:space-x-reverse space-y-6 space-y-reverse md:space-y-0 min-h-screen bg-accent"
     >
       <div class="w-full md:w-1/2 md:h-screen">
@@ -133,10 +134,10 @@ useSeo()
         </p>
         <p><a class="underline mt-4">Read More</a></p>
       </div>
-    </section>
+    </section> -->
 
     <section class="pt-24">
-      <div class="prose-lg xl:prose-xl"><p class="text-center">Connect with us @aquiferskincare</p></div>
+      <div class="prose-lg xl:prose-xl"><p class="text-center">Connect with me @sambooora</p></div>
       <div class="carousel carousel-center flex flex-row justify-content w-full">
         <div class="carousel-item">
           <img src="/images/hand.png" alt="" class="w-72 h-72" />
