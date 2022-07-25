@@ -36,13 +36,13 @@ useSeo()
           data-aos="fade-up"
           data-aos-delay="300"
           src="/images/profile-1.png"
-          class="w-2/3 h-auto -ml-44 mt-72 object-center object-contain"
+          class="w-full h-full -ml-36 mt-56 object-center object-contain"
         />
       </div>
     </section>
 
     <section
-      class="my-24 flex flex-col-reverse md:flex-row items-center space-x-0 md:space-x-8 space-y-6 space-y-reverse md:space-y-0 min-h-screen bg-accent"
+      class="my-24 flex flex-col-reverse md:flex-row items-center space-x-0 md:space-x-8 space-y-6 space-y-reverse md:space-y-0 min-h-screen"
     >
       <div class="w-full md:w-1/2 md:h-screen">
         <img src="/images/items-1.png" class="w-full h-full object-cover object-center" />
@@ -51,13 +51,26 @@ useSeo()
         data-aos="fade-left"
         class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-center md:text-left p-5 pt-12 md:pt-5"
       >
+      <div data-aos="fade-left">
         <h4 class="font-medium">Experience</h4>
-        <p>
-          The Liposomal encapsulation technology is a transport system for the active ingredient that travels
-          encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
-          active ingredient within the body
-        </p>
+        <div>
+          <h5>2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
+          <p>
+            The Liposomal encapsulation technology is a transport system for the active ingredient that travels
+            encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
+            active ingredient within the body
+          </p>
+        </div>
+        <div>
+          <h5>2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
+          <p>
+            The Liposomal encapsulation technology is a transport system for the active ingredient that travels
+            encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
+            active ingredient within the body
+          </p>
+        </div>
       </div>
+    </div>
     </section>
 
     <section class="container mx-auto px-4 py-24 min-h-screen">
@@ -116,28 +129,56 @@ useSeo()
       </div>
     </section>
 
-    <!-- <section
-      class="my-24 flex flex-col-reverse md:flex-row-reverse items-center space-x-0 md:space-x-8 md:space-x-reverse space-y-6 space-y-reverse md:space-y-0 min-h-screen bg-accent"
-    >
-      <div class="w-full md:w-1/2 md:h-screen">
-        <img src="/images/hand.png" class="w-full h-full object-cover object-center" />
-      </div>
-      <div
-        data-aos="fade-right"
-        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-center md:text-left p-5 pt-12 md:pt-5"
+      <section
+        class="my-24 flex flex-col-reverse md:flex-row-reverse items-center space-x-0 md:space-x-8 md:space-x-reverse space-y-6 space-y-reverse md:space-y-0 min-h-screen overflow-hidden"
       >
-        <h4 class="font-medium">FREE FROM</h4>
-        <p>
-          Aquifer products are free from artificial additives such as emulsifiers, surfactant, viscosity controller,
-          organic solvent, synthetic polymers, metal ion chelating agent or silicone based organic compounds that are
-          known to impose stress to skin cells
-        </p>
-        <p><a class="underline mt-4">Read More</a></p>
+        <div class="w-full md:w-1/2 md:h-screen">
+          <img src="/images/hand.png" class="w-full h-full object-cover object-center" />
+        </div>
+        <div
+        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-center md:text-left p-5 md:p-0 pt-12 md:pt-5"
+      >
+        <div>
+          <h4 class="font-medium">Skill Set</h4>
+          <div data-aos="fade-right" class="">
+            <h4 class="font-medium">Design</h4>
+            <div  class="flex flex-col space-y-5">
+              <div>
+                <div> Figma, Adobe XD  - UI Design</div>
+                <progress class="progress w-full" value="79" max="100"></progress>
+              </div>
+              <div>
+                <div>Adobe Photoshop - Image Processing</div>
+                <progress class="progress w-full" value="80" max="100"></progress>
+              </div>
+              <div>
+                <div>Corel Draw - Vector Builder</div>
+                <progress class="progress w-full" value="95" max="100"></progress>
+              </div>
+          </div>
+          <div data-aos="fade-right" data-aos-delay="300" class="">
+            <h4 class="font-medium">Coding</h4>
+            <div class="flex flex-col space-y-5">
+              <div>
+                <div>Nuxt - Javascript</div>
+                <progress class="progress w-full" value="79" max="100"></progress>
+              </div>
+              <div>
+                <div>Laravel - PHP</div>
+                <progress class="progress w-full" value="80" max="100"></progress>
+              </div>
+              <div>
+                <div>Tailwind, Boostrap - CSS</div>
+                <progress class="progress w-full" value="95" max="100"></progress>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
-    </section> -->
+    </section>
 
     <section class="pt-24">
-      <div class="prose-lg xl:prose-xl"><p class="text-center">Connect with me @sambooora</p></div>
       <div class="carousel carousel-center flex flex-row justify-content w-full">
         <div class="carousel-item">
           <img src="/images/hand.png" alt="" class="w-72 h-72" />
