@@ -74,7 +74,7 @@ useSeo()
     </section>
 
     <section class="container mx-auto px-4 py-24 min-h-screen">
-      <h1 class="text-center text-2xl mb-4">Project</h1>
+      <h1 class="text-center text-2xl mb-4">Latest Project</h1>
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         <div class="flex flex-col space-y-4">
           <div
@@ -103,7 +103,7 @@ useSeo()
               background-repeat: no-repeat;
             "
           >
-            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">Add to Cart $8.00</button>
+            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">See Detail</button>
           </div>
           <h1 class="text-2xl">Picasso Restaurant</h1>
           <p class="text-lg">
@@ -121,7 +121,7 @@ useSeo()
               background-repeat: no-repeat;
             "
           >
-            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">Add to Cart $8.00</button>
+            <button class="opacity-0 group-hover:opacity-100 btn btn-secondary">See Detail</button>
           </div>
           <h1 class="text-2xl">Aquifer Landing Page</h1>
           <p class="text-lg">With Natural Cellulose, Pure Water, Disodium EDTA, Xanthan Gum and Sorbitol</p>

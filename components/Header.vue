@@ -63,14 +63,14 @@ onBeforeUnmount(() => {
               <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-secondary">
                 <li><NuxtLink to="/">Overview</NuxtLink></li>
                 <li><NuxtLink to="/project">Project</NuxtLink></li>
-                <li><NuxtLink to="/sustainability">Contact</NuxtLink></li>
+                <li><NuxtLink to="/contact">Contact</NuxtLink></li>
               </ul>
             </div>
           </div>
           <div class="hidden md:flex flex-row items-center space-x-6">
             <NuxtLink to="/">Overview</NuxtLink>
             <NuxtLink to="/project">Project</NuxtLink>
-            <NuxtLink to="/sustainability">Contact</NuxtLink>
+            <NuxtLink to="/contact">Contact</NuxtLink>
           </div>
         </div>
       </div>
