@@ -17,7 +17,7 @@
       <div class="lg:flex-1 w-full flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-5 lg:justify-between">
         <div class="flex flex-col space-y-2">
           <NuxtLink to="/">Overview</NuxtLink>
-          <NuxtLink to="/project">Project</NuxtLink>
+          <NuxtLink to="/products">Project</NuxtLink>
           <NuxtLink to="/contact">Contact</NuxtLink>
         </div>
         <div class="flex flex-col space-y-2">

@@ -28,7 +28,8 @@ useSeo()
     >
       <div class="md:w-1/2 prose-lg xl:prose-xl text-center md:text-left">
         <h3>Overview</h3>
-        <p><span>Richie Mahfud Ahmed Sambora</span>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate alias laudantium, dolor minus voluptatem modi. Laboriosam architecto earum fugit deleniti commodi amet ea laborum voluptates vero quam facere animi rerum vel minus excepturi labore assumenda, modi quisquam accusamus eaque. In, ut?</p>
+        <h5 class="font-semibold">Richie Mahfud Ahmed Sambora</h5>
+        <p>I’m from Indonesia and I have been working as a Front End Developer for more than 2 years and currently I work for Grand Hotel Picasso as Front End Developer since 2020. I’ve been freelancing for the last 1 years, and right now I am looking forward to collaborate with you!</p>
       </div>
       <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
@@ -56,9 +57,13 @@ useSeo()
         <div>
           <h5>2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
           <p class="p-3">
-            The Liposomal encapsulation technology is a transport system for the active ingredient that travels
-            encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
-            active ingredient within the body
+            I worked on web design projects including the responsiveness for
+            the mobile version. Normally we do the kickoff meeting first and I
+            get a rough wireframe from the Project Manager, then I create the
+            mockup. Got feedback and iterate. When the mockup is final I
+            convert it into HTML and SCSS. Working as a designer and frontend
+            developer makes me know which design is effective and which one
+            is not for the development process.
           </p>
         </div>
         <div>

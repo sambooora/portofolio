@@ -27,7 +27,7 @@ export const useMainStore = defineStore('app', {
     products: [
       {
         id: '1',
-        name: 'Regenertaive Serum',
+        name: 'Picasso Dashboard',
         img: '/images/tmp/products/product-1.png',
         variants: [
           {
@@ -52,7 +52,7 @@ export const useMainStore = defineStore('app', {
       },
       {
         id: '2',
-        name: 'Hydrating Cream',
+        name: 'Pablo Restaurant',
         img: '/images/tmp/products/product-2.png',
         variants: [
           {
