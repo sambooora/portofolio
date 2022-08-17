@@ -16,17 +16,6 @@ const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id
       <div class="lg:w-1/2 flex flex-col justify-center">
         <div class="prose">
           <h3>{{ product.name }}</h3>
-          <div class="not-prose w-full inline-flex overflow-x-auto whitespace-nowrap -mx-3 mt-8">
-            <button
-              v-for="(variant, iv) in product.variants"
-              :key="iv"
-              class="btn btn-sm btn-ghost active:bg-transparent focus:bg-transparent hover:bg-transparent"
-              :class="{ underline: selectedVariant.name === variant.name }"
-              @click="selectedVariant = variant"
-            >
-              {{ variant.name }}
-            </button>
-          </div>
           <div v-html="product.description"></div>
           <div class="btn-group not-prose mt-12">
             <div class="btn-group flex-nowrap">
@@ -84,21 +73,7 @@ const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id
             <div class="lg:w-1/2 flex flex-col justify-center">
               <div class="prose">
                 <h3>{{ item.name }}</h3>
-                <div class="not-prose w-full inline-flex overflow-x-auto whitespace-nowrap -mx-3 mt-8">
-                  <button
-                    v-for="(variant, iv) in item.variants"
-                    :key="iv"
-                    class="btn btn-sm btn-ghost active:bg-transparent focus:bg-transparent hover:bg-transparent"
-                    :class="{ underline: selectedVariant.name === variant.name }"
-                    @click="selectedVariant = variant"
-                  >
-                    {{ variant.name }}
-                  </button>
-                </div>
                 <div v-html="item.description"></div>
-                <button class="btn btn-secondary btn-ghost flex-1 -mx-4">
-                  Add to Cart ${{ item.variants[0].price }} SGD
-                </button>
               </div>
             </div>
           </div>

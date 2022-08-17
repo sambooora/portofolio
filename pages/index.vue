@@ -69,9 +69,7 @@ useSeo()
         <div>
           <h5>2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
           <p class="p-3">
-            The Liposomal encapsulation technology is a transport system for the active ingredient that travels
-            encapsulated in liposomes. This amazing technology works to achieve better absorption and utilisation of the
-            active ingredient within the body
+            Do Maintenance and Analytical Troubleshooting of film equipment (Projector, Server and Sound System), Do Maintenance and Troubleshooting Hardware and Software IT Assets of the company. Collecting IT Assets and Projectionists. Management of company Networking (Routing, Switching, and Firewall Settings)
           </p>
         </div>
       </div>
@@ -86,7 +84,7 @@ useSeo()
             class="w-full h-full flex justify-center items-center group"
             style="
               background-image: url(/images/product-1.png);
-              min-height: 70vh;
+              min-height: 60vh;
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -94,14 +92,15 @@ useSeo()
           >
           </div>
           <h1 class="text-2xl">Picasso Dashboard</h1>
-          <p class="text-lg">With Collagen, Hyaluronic Acid, Soy Lecithin, Honeysuckle Flower and Rosa Damascena</p>
+          <p class="text-lg">
+is a website to manage hotel back office such as reservation, campaign management and accounting</p>
         </div>
         <div class="flex flex-col space-y-4">
           <div
             class="w-full h-full flex justify-center items-center group"
             style="
               background-image: url(/images/product-2.png);
-              min-height: 70vh;
+              min-height: 60vh;
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -110,7 +109,7 @@ useSeo()
           </div>
           <h1 class="text-2xl">Picasso Restaurant</h1>
           <p class="text-lg">
-            With Water, Glycerin, Propanediol, Cyclopentasiloxane, Dimethicone, Olea Europaea Oil and Betaine
+            Is a website to online menus and ordering restaurant food. to shorten the queue that occurs at the restaurant
           </p>
         </div>
         <div class="flex flex-col space-y-4">
@@ -118,15 +117,15 @@ useSeo()
             class="w-full h-full flex justify-center items-center group"
             style="
               background-image: url(/images/product-3.png);
-              min-height: 70vh;
+              min-height: 60vh;
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
             "
           >
           </div>
-          <h1 class="text-2xl">Aquifer Landing Page</h1>
-          <p class="text-lg">With Natural Cellulose, Pure Water, Disodium EDTA, Xanthan Gum and Sorbitol</p>
+          <h1 class="text-2xl">Picasso Landing Page</h1>
+          <p class="text-lg">Is a website that aims to be a hotel landing page and promotion center</p>
         </div>
       </div>
     </section>
@@ -186,19 +185,19 @@ useSeo()
           <img src="/images/hand.png" alt="" class="w-72 h-72" />
         </div>
         <div class="carousel-item">
-          <img src="/images/discov-1.png" alt="" class="w-72 h-72" />
-        </div>
-        <div class="carousel-item">
-          <img src="/images/discov-2.png" alt="" class="w-72 h-72" />
+          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
         </div>
         <div class="carousel-item">
           <img src="/images/items-1.png" alt="" class="w-72 h-72" />
         </div>
         <div class="carousel-item">
-          <img src="/images/product-2.png" alt="" class="w-72 h-72" />
+          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
         </div>
         <div class="carousel-item">
-          <img src="/images/product-3.png" alt="" class="w-72 h-72" />
+          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
+        </div>
+        <div class="carousel-item">
+          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
         </div>
         <div class="carousel-item">
           <img src="/images/hand.png" alt="" class="w-72 h-72" />

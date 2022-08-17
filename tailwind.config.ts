@@ -9,12 +9,12 @@ export default <Config & { daisyui: any }>{
     styled: true,
     themes: [
       {
-        aquifer: {
-          primary: '#165354',
+        normal: {
+          primary: '#191e33',
           secondary: '#080404',
           accent: '#f7f0ea',
           neutral: '#fe6a01',
-          'base-100': '#ffffff',
+          'base-100': '#191e33',
 
           '--rounded-box': '0', // border radius rounded-box utility class, used in card and other large boxes
           '--rounded-btn': '0', // border radius rounded-btn utility class, used in buttons and similar element

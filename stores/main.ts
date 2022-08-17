@@ -72,7 +72,7 @@ export const useMainStore = defineStore('app', {
       },
       {
         id: '3',
-        name: 'Restoritive Face Mask',
+        name: 'Picasso Landing',
         img: '/images/tmp/products/product-3.png',
         variants: [
           {

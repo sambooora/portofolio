@@ -11,8 +11,6 @@ const mainStore = useMainStore()
 
 <template>
   <div class="safe-area transition-colors" :class="route.meta.bg || 'bg-base-100'">
-    <ShopMenu :visible="mainStore.shopMenuVisible" />
-    <Cart :visible="mainStore.cartVisible"></Cart>
     <div>
       <Header v-if="$route.path !== '/checkout'" />
       <slot />
