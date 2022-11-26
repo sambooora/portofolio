@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const mainStore = useMainStore()
+useSeo({ title: 'Project' })
 
 const products = ref<(Product & { selectedVariant: ProductVariant })[]>(
   mainStore.products.map((i) => ({ ...i, selectedVariant: i.variants[0] }))
@@ -30,10 +31,7 @@ const modalDiscoverVisible = ref(false)
             </div>
             <div v-html="product.description"></div>
             <div class="btn-group not-prose mt-12">
-              <button class="btn btn-outline btn-secondary w-1/2" @click="modalDiscoverVisible = true">
-                View Study Case 
-              </button>
-              <button class="btn btn-secondary w-1/2">Visit website</button>
+              <a class="btn btn-outline text-white border-white w-1/2">Visit website</a>
             </div>
           </div>
         </div>

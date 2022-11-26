@@ -19,7 +19,7 @@ useSeo()
           <p class="leading-normal">Richie Mahfud Ahmed Sambora</p>
           <p class="text-xl"> UI Designer | Front End Developer</p>
         </div>
-        <button class="btn btn-outline text-white border-white mt-12 px-8">Download Resume</button>
+        <button class="hidden btn btn-outline text-white border-white mt-12 px-8">Download Resume</button>
       </div>
     </section>
 
@@ -27,9 +27,9 @@ useSeo()
       class="container mx-auto flex flex-col md:flex-row items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 px-4 min-h-screen"
     >
       <div class="md:w-1/2 prose-lg xl:prose-xl text-center md:text-left">
-        <h3>Overview</h3>
+        <h2>Overview</h2>
         <h5 class="font-semibold">Richie Mahfud Ahmed Sambora</h5>
-        <p>I’m from Indonesia and I have been working as a Front End Developer for more than 2 years and currently I work for Grand Hotel Picasso as Front End Developer since 2020. I’ve been freelancing for the last 1 years, and right now I am looking forward to collaborate with you!</p>
+        <p class="font-thin">I’m from Indonesia and I have been working as a Front End Developer for more than 2 years and currently I work for Grand Hotel Picasso as Front End Developer since 2020. I’ve been freelancing for the last 1 years, and right now I am looking forward to collaborate with you!</p>
       </div>
       <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
@@ -53,10 +53,10 @@ useSeo()
         class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-center md:text-left p-5 pt-12 md:pt-5"
       >
       <div data-aos="fade-left">
-        <h4 class="font-medium">Experience</h4>
+        <h2>Experience</h2>
         <div>
-          <h5>2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
-          <p class="p-3">
+          <h5 class="text-sm font-semibold">2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
+          <p class="font-thin">
             I worked on web design projects including the responsiveness for
             the mobile version. Normally we do the kickoff meeting first and I
             get a rough wireframe from the Project Manager, then I create the
@@ -67,8 +67,8 @@ useSeo()
           </p>
         </div>
         <div>
-          <h5>2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
-          <p class="p-3">
+          <h5 class="text-sm font-semibold">2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
+          <p class="font-thin">
             Do Maintenance and Analytical Troubleshooting of film equipment (Projector, Server and Sound System), Do Maintenance and Troubleshooting Hardware and Software IT Assets of the company. Collecting IT Assets and Projectionists. Management of company Networking (Routing, Switching, and Firewall Settings)
           </p>
         </div>
@@ -179,7 +179,34 @@ is a website to manage hotel back office such as reservation, campaign managemen
       </div>
     </section>
 
-    <section class="pt-24">
+    <!-- Service -->
+    <!-- <section
+    class="container mx-auto px-4 py-24 min-h-screen"
+      >
+      <h1 class="text-center text-2xl mb-4">Service</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+        <div class="flex flex-col justify-center items-center bg-gray-800 h-60 p-6 text-center">
+          <img src="" alt="">
+          <h4>Name of Sercive</h4>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ratione aliquid doloribus.</span>
+
+        </div>
+        <div class="flex flex-col justify-center items-center bg-gray-800 h-60 p-6 text-center">
+          <img src="" alt="">
+          <h4>Name of Sercive</h4>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ratione aliquid doloribus.</span>
+
+        </div>
+        <div class="flex flex-col justify-center items-center bg-gray-800 h-60 p-6 text-center">
+          <img src="" alt="">
+          <h4>Name of Sercive</h4>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ratione aliquid doloribus.</span>
+
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="pt-24">
       <div class="carousel carousel-center flex flex-row justify-content w-full">
         <div class="carousel-item">
           <img src="/images/hand.png" alt="" class="w-72 h-72" />
@@ -203,6 +230,6 @@ is a website to manage hotel back office such as reservation, campaign managemen
           <img src="/images/hand.png" alt="" class="w-72 h-72" />
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>

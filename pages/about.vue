@@ -1,4 +1,5 @@
 <script setup lang="ts">
+useSeo({ title: 'About' })
 definePageMeta({
   bg: 'bg-accent'
 })

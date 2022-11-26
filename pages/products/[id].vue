@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
+useSeo({ title: 'Project' })
 const mainStore = useMainStore()
 
 const product = ref<Product>(mainStore.products.find((i) => i.id === route.params.id))

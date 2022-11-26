@@ -31,7 +31,7 @@ export const useMainStore = defineStore('app', {
         img: '/images/tmp/products/product-1.png',
         variants: [
           {
-            name: '3x 10 ml 0.34 Fl Oz',
+            name: 'ERP',
             price: 100
           },
           {
@@ -40,13 +40,11 @@ export const useMainStore = defineStore('app', {
           }
         ],
         description: `
-    <p>Healthy skin starts here. With Collagen, Hyaluronic Acid, Soy Lecithin, Honeysuckle Flower and Rosa Damascena. Hydrate and revitalise your skin from the inside out with Aquifers advanced collagen serum. Achieve younger and healthier glowing skin and see visible results of reduced fine lines and wrinkles.</p>
+    <p>This project is a redesign and redevelop of ERP Application of Grand Picasso Hotel. Grand Picasso Hotel is a Hotel 3 stars in Jakarta, Indonesia. In this project, My Role is Front End Developer and Designer. This project is a website to manage hotel back office such as reservation, campaign management and accounting I develope this Project with Stack :</p>
     <ul>
-      <li>Promotes fundamental skin health</li>
-      <li>Tightens skin and reduces fine lines and wrinkles</li>
-      <li>Slows down degradation of collagen</li>
-      <li>Fast absorption with a silky smooth finish</li>
-      <li>Naturally sourced and cruelty-free</li>
+      <li>Boostrap</li>
+      <li>Nuxt JS</li>
+      <li>Axios for Connection with APi</li>
     </ul>
     `
       },
@@ -61,35 +59,34 @@ export const useMainStore = defineStore('app', {
           }
         ],
         description: `
-    <p>A boost of norishing hydration. With Water, Glycerin, Propanediol, Cyclopentasiloxane, Dimethicone, Olea Europaea Oil and Betaine. Compat the appearance of fine lines and wrinkles and pamper your skin with long-lasting hydration. The ultimate defence to prevent premature signs of skin ageing and prevent future degeneration.</p>
+    <p>This project is a develop from scratch of Landing Page and Order Food App of Pablo Restaurant. Pablo Resto is a Resto under management of Grand Picasso Hotel in Jakarta, Indonesia. In this project, My Role is Front End Developer and also Designer. I develope this Project with Stack :</p>
     <ul>
-      <li>Advanced sun protective formula</li>
-      <li>Supports the skins natural repair mechanisms</li>
-      <li>Long-lasting moisture, easing the appearance of fine lines and wrinkles</li>
-      <li>Naturally sourced and cruelty-free</li>
-    </ul>
-    `
-      },
-      {
-        id: '3',
-        name: 'Picasso Landing',
-        img: '/images/tmp/products/product-3.png',
-        variants: [
-          {
-            name: '10 ml 0.34 Fl Oz',
-            price: 100
-          }
-        ],
-        description: `
-    <p>Moisturized, soothed and ultimately refreshed skin. With Natural Cellulose, Pure Water, Disodium EDTA, Xanthan Gum and Sorbitol. Proskin face mask is made from a natural cellulose that is fabricated via a biofabrication process, known for its advanced healing and repair properties. Perfect for rejuvenating skin whenever you need some TLC.</p>
-    <ul>
-      <li>Promotes skin healing and younger looking skin</li>
-      <li>Fragrance and alcohol free</li>
-      <li>Easy-to-use</li>
-      <li>Naturally sourced and cruelty-free</li>
+      <li>Tailwind CSS</li>
+      <li>Nuxt JS</li>
+      <li>Axios for Connection with APi</li>
     </ul>
     `
       }
+    //   {
+    //     id: '3',
+    //     name: 'Picasso Landing',
+    //     img: '/images/tmp/products/product-3.png',
+    //     variants: [
+    //       {
+    //         name: '10 ml 0.34 Fl Oz',
+    //         price: 100
+    //       }
+    //     ],
+    //     description: `
+    // <p>Moisturized, soothed and ultimately refreshed skin. With Natural Cellulose, Pure Water, Disodium EDTA, Xanthan Gum and Sorbitol. Proskin face mask is made from a natural cellulose that is fabricated via a biofabrication process, known for its advanced healing and repair properties. Perfect for rejuvenating skin whenever you need some TLC.</p>
+    // <ul>
+    //   <li>Promotes skin healing and younger looking skin</li>
+    //   <li>Fragrance and alcohol free</li>
+    //   <li>Easy-to-use</li>
+    //   <li>Naturally sourced and cruelty-free</li>
+    // </ul>
+    // `
+    //   }
     ]
   }),
 

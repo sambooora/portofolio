@@ -18,18 +18,17 @@
         <div class="flex flex-col space-y-2">
           <NuxtLink to="/">Overview</NuxtLink>
           <NuxtLink to="/products">Project</NuxtLink>
-          <NuxtLink to="/contact">Contact</NuxtLink>
         </div>
         <div class="flex flex-col space-y-2">
-          <a href="">Twitter</a>
-          <a href="">GitHub</a>
-          <a href="">Instagram</a>
-          <a href="">Dribble</a>
+          <a href="https://twitter.com/sambooora" target="_blank">Twitter</a>
+          <a href="https://github.com/sambooora" target="_blank">GitHub</a>
+          <a href="https://instagram.com/sambooora" target="_blank">Instagram</a>
+          <a href="https://dribbble.com/richiesambora9029" target="_blank">Dribble</a>
         </div>
         <div class="flex flex-col space-y-2">
-          <NuxtLink to="/galleries">Galleries</NuxtLink>
-          <NuxtLink to="/blogs">Blogs</NuxtLink>
-          <NuxtLink to="/tutor">Tutorials</NuxtLink>
+          <NuxtLink to="/">Galleries</NuxtLink>
+          <NuxtLink to="/">Blogs</NuxtLink>
+          <NuxtLink to="/">Tutorials</NuxtLink>
         </div>
       </div>
     </div>
