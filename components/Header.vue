@@ -58,9 +58,9 @@ onBeforeUnmount(() => {
                   stroke="currentColor"
                   stroke-width="2"
                 >
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" /></svg
-              ></label>
-              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-secondary">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+                </label>
+              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-ancient">
                 <li><NuxtLink to="/">Overview</NuxtLink></li>
                 <li><NuxtLink to="/products">Project</NuxtLink></li>
                 <li><a href="mailto:richiesambora9029@gmail.com">Contact</a></li>
