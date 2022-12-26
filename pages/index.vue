@@ -1,5 +1,14 @@
 <script setup lang="ts">
 useSeo()
+
+  const downloadTemplate =() => {
+      const link = document.createElement('a')
+      link.href = '/doc/richie-261222.pdf'
+      link.download = 'richie-261222.pdf'
+      link.target = '_blank'
+      link.rel = 'noopener noreferrer'
+      link.click()
+    }
 </script>
 
 <template>
@@ -19,7 +28,7 @@ useSeo()
           <p class="leading-normal">Richie Mahfud Ahmed Sambora</p>
           <p class="text-xl"> UI Designer | Front End Developer</p>
         </div>
-        <button class="hidden btn btn-outline text-white border-white mt-12 px-8">Download Resume</button>
+        <button class="btn btn-outline text-white border-white mt-12 px-8" @click="downloadTemplate()">Download Resume</button>
       </div>
     </section>
 
@@ -29,7 +38,7 @@ useSeo()
       <div class="md:w-1/2 prose-lg xl:prose-xl text-center md:text-left">
         <h2>Overview</h2>
         <h5 class="font-semibold">Richie Mahfud Ahmed Sambora</h5>
-        <p class="font-thin">Hello, my name is Richie and I am a programmer. I have two years of experience in this field and have developed web applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
+        <p class="">Hello, my name is Richie and I am a programmer. I have two years of experience in this field and have developed web applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
       </div>
       <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
@@ -55,8 +64,8 @@ useSeo()
       <div data-aos="fade-left">
         <h2>Experience</h2>
         <div>
-          <h5 class="text-sm font-semibold">2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
-          <p class="font-thin">
+          <h5 class="font-semibold">2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
+          <p class="">
             I worked on web design projects including the responsiveness for
             the mobile version. Normally we do the kickoff meeting first and I
             get a rough wireframe from the Project Manager, then I create the
@@ -67,8 +76,8 @@ useSeo()
           </p>
         </div>
         <div>
-          <h5 class="text-sm font-semibold">2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
-          <p class="font-thin">
+          <h5 class="font-semibold">2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
+          <p class="">
             Do Maintenance and Analytical Troubleshooting of film equipment (Projector, Server and Sound System), Do Maintenance and Troubleshooting Hardware and Software IT Assets of the company. Collecting IT Assets and Projectionists. Management of company Networking (Routing, Switching, and Firewall Settings)
           </p>
         </div>
