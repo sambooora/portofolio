@@ -29,7 +29,7 @@ useSeo()
       <div class="md:w-1/2 prose-lg xl:prose-xl text-center md:text-left">
         <h2>Overview</h2>
         <h5 class="font-semibold">Richie Mahfud Ahmed Sambora</h5>
-        <p class="font-thin">Hello, my name is Richie and I am a programmer. I have [number of years] years of experience in this field and have developed both web and mobile applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
+        <p class="font-thin">Hello, my name is Richie and I am a programmer. I have two years of experience in this field and have developed web applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
       </div>
       <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
