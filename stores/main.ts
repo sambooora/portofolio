@@ -29,6 +29,7 @@ export const useMainStore = defineStore('app', {
         id: '1',
         name: 'Picasso Dashboard',
         img: '/images/tmp/products/product-1.png',
+        href: 'https://dashboard.picassorewards.com/',
         variants: [
           {
             name: 'ERP',
@@ -52,6 +53,7 @@ export const useMainStore = defineStore('app', {
         id: '2',
         name: 'Pablo Restaurant',
         img: '/images/tmp/products/product-2.png',
+        href: 'https://resto.picassorewards.com/pablo-all-dining-bar',
         variants: [
           {
             name: '50 ml 1.69 Fl Oz',

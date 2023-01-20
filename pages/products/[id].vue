@@ -5,10 +5,10 @@ const mainStore = useMainStore()
 
 const product = ref<Product>(mainStore.products.find((i) => i.id === route.params.id))
 
-const selectedVariant = ref<ProductVariant>(mainStore.products.find((i) => i.id === route.params.id).variants[0])
-const qty = ref(1)
+// const selectedVariant = ref<ProductVariant>(mainStore.products.find((i) => i.id === route.params.id).variants[0])
+// const qty = ref(1)
 
-const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id !== route.params.id))
+// const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id !== route.params.id))
 </script>
 
 <template>
@@ -18,7 +18,7 @@ const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id
         <div class="prose">
           <h3>{{ product.name }}</h3>
           <div v-html="product.description"></div>
-          <div class="btn-group not-prose mt-12">
+          <!-- <div class="btn-group not-prose mt-12">
             <div class="btn-group flex-nowrap">
               <button
                 class="btn btn-primary btn-ghost btn-square border border-secondary hover:border-secondary border-r-0"
@@ -55,7 +55,7 @@ const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id
               </button>
             </div>
             <button class="btn btn-secondary flex-1">Add to Cart ${{ selectedVariant.price }} SGD</button>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="w-full h-full lg:w-1/2">
@@ -63,7 +63,7 @@ const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id
       </div>
     </div>
 
-    <div class="mt-20">
+    <!-- <div class="mt-20">
       <h3 class="text-lg font-medium text-center mb-8">Pair this product with</h3>
       <div class="carousel rounded-box">
         <div v-for="(item, i) in pairRecommendations" :key="i" class="carousel-item w-full">
@@ -80,6 +80,6 @@ const pairRecommendations = ref<Product[]>(mainStore.products.filter((i) => i.id
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>

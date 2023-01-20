@@ -86,7 +86,7 @@ useSeo()
     </section>
 
     <section class="container mx-auto px-4 py-24 min-h-screen">
-      <h1 class="text-center text-2xl mb-4">Latest Project</h1>
+      <h2 class="text-center text-4xl mb-4">Latest Projects</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         <div class="flex flex-col space-y-4">
           <div
@@ -148,9 +148,8 @@ is a website to manage hotel back office such as reservation, campaign managemen
         <div
         class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl md:max-w-3xl text-center md:text-left p-5 md:p-12 pt-12 md:pt-5"
       >
-        <div>
-          <h4 class="font-medium">Skill Set</h4>
-          <div data-aos="fade-right" class="">
+        <div data-aos="fade-right">
+          <h2>Skill Sets</h2>
             <h4 class="font-medium">Design</h4>
             <div  class="flex flex-col space-y-5">
               <div>
@@ -165,7 +164,7 @@ is a website to manage hotel back office such as reservation, campaign managemen
                 <div>Corel Draw - Vector Builder</div>
                 <progress class="progress w-full" value="95" max="100"></progress>
               </div>
-          </div>
+          
           <div data-aos="fade-right" data-aos-delay="300" class="">
             <h4 class="font-medium">Coding</h4>
             <div class="flex flex-col space-y-5">
@@ -187,58 +186,5 @@ is a website to manage hotel back office such as reservation, campaign managemen
         </div>
       </div>
     </section>
-
-    <!-- Service -->
-    <!-- <section
-    class="container mx-auto px-4 py-24 min-h-screen"
-      >
-      <h1 class="text-center text-2xl mb-4">Service</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-        <div class="flex flex-col justify-center items-center bg-gray-800 h-60 p-6 text-center">
-          <img src="" alt="">
-          <h4>Name of Sercive</h4>
-          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ratione aliquid doloribus.</span>
-
-        </div>
-        <div class="flex flex-col justify-center items-center bg-gray-800 h-60 p-6 text-center">
-          <img src="" alt="">
-          <h4>Name of Sercive</h4>
-          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ratione aliquid doloribus.</span>
-
-        </div>
-        <div class="flex flex-col justify-center items-center bg-gray-800 h-60 p-6 text-center">
-          <img src="" alt="">
-          <h4>Name of Sercive</h4>
-          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ratione aliquid doloribus.</span>
-
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="pt-24">
-      <div class="carousel carousel-center flex flex-row justify-content w-full">
-        <div class="carousel-item">
-          <img src="/images/hand.png" alt="" class="w-72 h-72" />
-        </div>
-        <div class="carousel-item">
-          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
-        </div>
-        <div class="carousel-item">
-          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
-        </div>
-        <div class="carousel-item">
-          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
-        </div>
-        <div class="carousel-item">
-          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
-        </div>
-        <div class="carousel-item">
-          <img src="/images/items-1.png" alt="" class="w-72 h-72" />
-        </div>
-        <div class="carousel-item">
-          <img src="/images/hand.png" alt="" class="w-72 h-72" />
-        </div>
-      </div>
-    </section> -->
   </div>
 </template>
