@@ -35,18 +35,18 @@ useSeo()
     <section
       class="container mx-auto flex flex-col md:flex-row items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 px-4 min-h-screen"
     >
-      <div class="md:w-1/2 prose-lg xl:prose-xl text-center md:text-left">
+      <div class="md:w-1/2 prose-lg xl:prose-xl text-left">
         <h2>Overview</h2>
         <h5 class="font-semibold">Richie Mahfud Ahmed Sambora</h5>
         <p class="">Hello, my name is Richie and I am a programmer. I have two years of experience in this field and have developed web applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
       </div>
       <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
-        <img data-aos="fade-up" src="/images/discov-1.png" class="grayscale w-full h-full object-center object-contain" />
+        <img data-aos="fade-up" src="/images/discov-1.png" class="hidden md:block grayscale w-full h-full object-center object-contain" />
         <img
           data-aos="fade-up"
           data-aos-delay="300"
           src="/images/profile-1.png"
-          class="w-full h-full -ml-36 mt-56 object-center object-contain"
+          class="w-full h-full md:-ml-36 md:mt-56 object-center object-contain"
         />
       </div>
     </section>
@@ -59,7 +59,7 @@ useSeo()
       </div>
       <div
         data-aos="fade-left"
-        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-center md:text-left p-5 pt-12 md:pt-5"
+        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-left p-5 pt-12 md:pt-5"
       >
       <div data-aos="fade-left">
         <h2>Experience</h2>
@@ -87,7 +87,7 @@ useSeo()
 
     <section class="container mx-auto px-4 py-24 min-h-screen">
       <h2 class="text-center text-4xl mb-4">Latest Projects</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 md:gap-6">
         <div class="flex flex-col space-y-4">
           <div
             class="w-full h-full flex justify-center items-center group"
@@ -146,7 +146,7 @@ is a website to manage hotel back office such as reservation, campaign managemen
           <img src="/images/hand.png" class="w-full h-full object-cover object-center" />
         </div>
         <div
-        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl md:max-w-3xl text-center md:text-left p-5 md:p-12 pt-12 md:pt-5"
+        class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl md:max-w-3xl text-left p-5 md:p-12 pt-12 md:pt-5"
       >
         <div data-aos="fade-right">
           <h2>Skill Sets</h2>

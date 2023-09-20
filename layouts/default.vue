@@ -6,14 +6,14 @@ useHead({
 })
 
 const route = useRoute()
-const mainStore = useMainStore()
 </script>
 
 <template>
-  <div class="safe-area transition-colors" :class="route.meta.bg || 'bg-base-100'">
+  <div id="main-container" class="safe-area transition-colors" :class="route.meta.bg || 'bg-base-100'">
     <div>
       <Header v-if="$route.path !== '/checkout'" />
       <slot />
+      <BacktoTop />
     </div>
     <Footer />
   </div>
