@@ -28,7 +28,7 @@ useSeo()
           <p class="leading-normal">Richie Mahfud Ahmed Sambora</p>
           <p class="text-xl"> UI Designer | Front End Developer</p>
         </div>
-        <button class="btn btn-outline text-white border-white mt-12 px-8" @click="downloadTemplate()">Download Resume</button>
+        <!-- <button class="btn btn-outline text-white border-white mt-12 px-8" @click="downloadTemplate()">Download Resume</button> -->
       </div>
     </section>
 
@@ -64,7 +64,13 @@ useSeo()
       <div data-aos="fade-left">
         <h2>Experience</h2>
         <div>
-          <h5 class="font-semibold">2020 - Present, Front End Developer - Grand Picasso Hotel Developer Team</h5>
+          <h5 class="font-semibold">2024 - Present, Front End Developer - Jogjanode (PT Tinuju Agawe Sentosa)</h5>
+          <p class="">
+            Developed and maintained responsive web applications using Nuxt.js and Tailwind CSS. Integrated RESTful APIs to create dynamic, data-driven interfaces. Focused on performance optimization, reusable components, and clean code practices. Collaborated closely with designers and back-end developers to deliver seamless user experiences. Worked in agile environments, contributing to continuous improvement and deployment pipelines
+          </p>
+        </div>
+        <div>
+          <h5 class="font-semibold">2020 - 2024, Front End Developer - Grand Picasso Hotel Developer Team</h5>
           <p class="">
             I worked on web design projects including the responsiveness for
             the mobile version. Normally we do the kickoff meeting first and I
