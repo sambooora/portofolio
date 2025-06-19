@@ -33,11 +33,11 @@ useSeo()
     </section>
 
     <section
-      class="container mx-auto flex flex-col md:flex-row items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 px-4 min-h-screen"
+      class="container mx-auto flex flex-col md:flex-row items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 px-4 min-h-screen gap-3"
     >
-      <div class="md:w-1/2 prose-lg xl:prose-xl text-left">
-        <h2>Overview</h2>
-        <h5 class="font-semibold">Richie Mahfud Ahmed Sambora </h5>
+      <div class="md:w-1/2 prose-lg xl:prose-xl text-left gap-3 flex flex-col">
+        <span class="text-4xl font-bold">Overview</span>
+        <h5 class="font-semibold text-lg">Richie Mahfud Ahmed Sambora </h5>
         <p class="">Hello, my name is Richie and I am a programmer. I have two years of experience in this field and have developed web applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
       </div>
       <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
@@ -61,16 +61,16 @@ useSeo()
         data-aos="fade-left"
         class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-left p-5 pt-12 md:pt-5"
       >
-      <div data-aos="fade-left">
-        <h2>Experience</h2>
+      <div data-aos="fade-left" class="flex flex-col justify-start gap-3">
+        <h2 class="text-3xl font-bold">Experience</h2>
         <div>
-          <h5 class="font-semibold">2022 - Present, Front End Developer - Jogjanode (PT Tinuju Agawe Sentosa)</h5>
+          <h5 class="font-semibold mb-1">2022 - Present, Front End Developer - Jogjanode (PT Tinuju Agawe Sentosa)</h5>
           <p class="">
             Developed and maintained responsive web applications using Nuxt.js and Tailwind CSS. Integrated RESTful APIs to create dynamic, data-driven interfaces. Focused on performance optimization, reusable components, and clean code practices. Collaborated closely with designers and back-end developers to deliver seamless user experiences. Worked in agile environments, contributing to continuous improvement and deployment pipelines
           </p>
         </div>
         <div>
-          <h5 class="font-semibold">2020 - 2022, Front End Developer - Grand Picasso Hotel Developer Team</h5>
+          <h5 class="font-semibold mb-1">2020 - 2022, Front End Developer - Grand Picasso Hotel Developer Team</h5>
           <p class="">
             I worked on web design projects including the responsiveness for
             the mobile version. Normally we do the kickoff meeting first and I
@@ -82,7 +82,7 @@ useSeo()
           </p>
         </div>
         <div>
-          <h5 class="font-semibold">2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
+          <h5 class="font-semibold mb-1">2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
           <p class="">
             Do Maintenance and Analytical Troubleshooting of film equipment (Projector, Server and Sound System), Do Maintenance and Troubleshooting Hardware and Software IT Assets of the company. Collecting IT Assets and Projectionists. Management of company Networking (Routing, Switching, and Firewall Settings)
           </p>

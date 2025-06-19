@@ -9,12 +9,12 @@ const products = ref<(Product & { selectedVariant: ProductVariant })[]>(
 
 <template>
   <section class="container mx-auto px-4 py-12">
-    <div class="w-full inline-flex overflow-x-auto space-x-6 whitespace-nowrap pb-4">
+    <!-- <div class="w-full inline-flex overflow-x-auto space-x-6 whitespace-nowrap pb-4">
       <NuxtLink to="/products">All</NuxtLink>
       <NuxtLink v-for="(product, i) in mainStore.products">
         {{ product.name }}
       </NuxtLink>
-    </div>
+    </div> -->
 
     <div class="mt-12 flex flex-col space-y-3 md:space-y-12">
       <div
