@@ -62,30 +62,45 @@ useSeo()
         class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl text-left p-5 pt-12 md:pt-5"
       >
       <div data-aos="fade-left" class="flex flex-col justify-start gap-3">
-        <h2 class="text-3xl font-bold">Experience</h2>
+        <h2 class="text-3xl font-bold p-3">Experience</h2>
         <div>
-          <h5 class="font-semibold mb-1">2022 - Present, Front End Developer - Jogjanode (PT Tinuju Agawe Sentosa)</h5>
-          <p class="">
-            Developed and maintained responsive web applications using Nuxt.js and Tailwind CSS. Integrated RESTful APIs to create dynamic, data-driven interfaces. Focused on performance optimization, reusable components, and clean code practices. Collaborated closely with designers and back-end developers to deliver seamless user experiences. Worked in agile environments, contributing to continuous improvement and deployment pipelines
-          </p>
+          <div tabindex="0" class="collapse collapse-arrow border border-base-100 bg-base-100 rounded-box">
+          <div class="collapse-title mb-1 flex flex-col">
+            <span class="font-semibold"> Jogjanode (PT Tinuju Agawe Sentosa)</span>
+            <span class="text-sm">2022 - Present, Front End Developer</span>
+          </div>
+          <div class="collapse-content">
+            <p>  Developed and maintained responsive web applications using Nuxt.js and Tailwind CSS. Integrated RESTful APIs to create dynamic, data-driven interfaces. Focused on performance optimization, reusable components, and clean code practices. Collaborated closely with designers and back-end developers to deliver seamless user experiences. Worked in agile environments, contributing to continuous improvement and deployment pipelines.</p>
+          </div>
         </div>
         <div>
-          <h5 class="font-semibold mb-1">2020 - 2022, Front End Developer - Grand Picasso Hotel Developer Team</h5>
-          <p class="">
-            I worked on web design projects including the responsiveness for
-            the mobile version. Normally we do the kickoff meeting first and I
-            get a rough wireframe from the Project Manager, then I create the
-            mockup. Got feedback and iterate. When the mockup is final I
-            convert it into HTML and SCSS. Working as a designer and frontend
-            developer makes me know which design is effective and which one
-            is not for the development process.
-          </p>
+        </div>
+          <div tabindex="0" class="collapse collapse-arrow border border-base-100 bg-base-100 rounded-box">
+            <div class="collapse-title mb-1 flex flex-col">
+              <span class="font-semibold"> Grand Picasso Hotel Developer Team</span>
+              <span class="text-sm">2020 - 2022, Front End Developer</span>
+            </div>
+            <div class="collapse-content">
+              <p> I worked on web design projects including the responsiveness for
+              the mobile version. Normally we do the kickoff meeting first and I
+              get a rough wireframe from the Project Manager, then I create the
+              mockup. Got feedback and iterate. When the mockup is final I
+              convert it into HTML and SCSS. Working as a designer and frontend
+              developer makes me know which design is effective and which one
+              is not for the development process.</p>
+            </div>
+          </div>
         </div>
         <div>
-          <h5 class="font-semibold mb-1">2018 - 2020, Movie Enginerring Support - PT. Graha Layar Prima Tbk (CGV Cinemas)</h5>
-          <p class="">
-            Do Maintenance and Analytical Troubleshooting of film equipment (Projector, Server and Sound System), Do Maintenance and Troubleshooting Hardware and Software IT Assets of the company. Collecting IT Assets and Projectionists. Management of company Networking (Routing, Switching, and Firewall Settings)
-          </p>
+        <div tabindex="0" class="collapse collapse-arrow border border-base-100 bg-base-100 rounded-box">
+          <div class="collapse-title mb-1 flex flex-col">
+            <span class="font-semibold"> PT. Graha Layar Prima Tbk (CGV Cinemas)</span>
+            <span class="text-sm">2018 - 2020, Movie Enginerring Support</span>
+          </div>
+          <div class="collapse-content">
+            <p>Do Maintenance and Analytical Troubleshooting of film equipment (Projector, Server and Sound System), Do Maintenance and Troubleshooting Hardware and Software IT Assets of the company. Collecting IT Assets and Projectionists. Management of company Networking (Routing, Switching, and Firewall Settings)</p>
+          </div>
+        </div>
         </div>
       </div>
     </div>
