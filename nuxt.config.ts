@@ -1,6 +1,9 @@
 export default defineNuxtConfig({
   nitro: {
     preset: 'vercel',
+    externals: {
+      inline: ['vue-bundle-renderer'],
+    },
   },
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@vueuse/nuxt'],
   plugins: ['@/plugins/aos.client.ts'],
