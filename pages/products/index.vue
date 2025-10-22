@@ -3,7 +3,7 @@ const mainStore = useMainStore()
 useSeo({ title: 'Project' })
 
 const products = ref<(Product & { selectedVariant: ProductVariant })[]>(
-  mainStore.products.map((i) => ({ ...i, selectedVariant: i.variants[0] }))
+  mainStore.products.map(i => ({ ...i, selectedVariant: i.variants[0] }))
 )
 </script>
 
@@ -25,8 +25,9 @@ const products = ref<(Product & { selectedVariant: ProductVariant })[]>(
         <div class="lg:w-1/2 flex flex-col justify-center">
           <div class="prose">
             <h3>{{ product.name }}</h3>
-            <div class="not-prose w-full inline-flex overflow-x-auto whitespace-nowrap -mx-3 md:mt-8">
-            </div>
+            <div
+              class="not-prose w-full inline-flex overflow-x-auto whitespace-nowrap -mx-3 md:mt-8"
+            ></div>
             <div v-html="product.description"></div>
           </div>
         </div>

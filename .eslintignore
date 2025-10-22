@@ -1,0 +1,11 @@
+node_modules
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+.vercel
+*.log
+coverage
+.nyc_output

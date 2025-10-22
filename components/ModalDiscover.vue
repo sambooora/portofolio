@@ -4,7 +4,7 @@ type Props = {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  visible: false
+  visible: false,
 })
 
 const emit = defineEmits<{
@@ -20,7 +20,11 @@ const emit = defineEmits<{
           <div class="flex items-center justify-between">
             <h2 id="slide-over-title" class="text-3xl font-semibold">Aquifer</h2>
             <div class="ml-3 flex h-7 items-center -mt-px">
-              <button type="button" class="-m-2 p-2 text-gray-400 hover:text-gray-500" @click="emit('dismiss')">
+              <button
+                type="button"
+                class="-m-2 p-2 text-gray-400 hover:text-gray-500"
+                @click="emit('dismiss')"
+              >
                 <span class="sr-only">Close panel</span>
                 <!-- Heroicon name: outline/x -->
                 <svg
@@ -42,18 +46,19 @@ const emit = defineEmits<{
               <div class="prose lg:prose-lg">
                 <h4>Our Ingredients</h4>
                 <p>
-                  Aquifer Regenerative Serum contains Hydrolyzed Fish Collagen, Vegan Hyaluronic Acid, Soy Lecithin,
-                  Honeysuckle Flower Extract, Leucidal Liquid, Rosa Damascena Extract Fragrance, Water, Sodium Phosphate
-                  Dibasic, Sodium Phosphate Monobasic, Sodium Chloride, Sodium Hydroxide, Hydrochloric Acid, Ph
-                  Adjustment
+                  Aquifer Regenerative Serum contains Hydrolyzed Fish Collagen, Vegan Hyaluronic
+                  Acid, Soy Lecithin, Honeysuckle Flower Extract, Leucidal Liquid, Rosa Damascena
+                  Extract Fragrance, Water, Sodium Phosphate Dibasic, Sodium Phosphate Monobasic,
+                  Sodium Chloride, Sodium Hydroxide, Hydrochloric Acid, Ph Adjustment
                 </p>
               </div>
               <div class="prose lg:prose-lg">
                 <h4>Made Without</h4>
                 <p>
-                  Aquifer products are free from artificial additives such as emulsifiers, surfactant, viscosity
-                  controller, organic solvent, synthetic polymers, metal ion chelating agent or silicone based organic
-                  compounds that are known to impose stress to skin cells
+                  Aquifer products are free from artificial additives such as emulsifiers,
+                  surfactant, viscosity controller, organic solvent, synthetic polymers, metal ion
+                  chelating agent or silicone based organic compounds that are known to impose
+                  stress to skin cells
                 </p>
               </div>
             </div>

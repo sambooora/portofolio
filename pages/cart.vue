@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeo({ title: 'Cart' })
 definePageMeta({
-  bg: 'bg-accent'
+  bg: 'bg-accent',
 })
 
 const cartLineItems = ref([
@@ -10,20 +10,22 @@ const cartLineItems = ref([
     img: '/images/tmp/cart-item-1.png',
     variant: '3x 10ml 0.34 Fl Oz',
     qty: 1,
-    price: '$100.00 SGD'
+    price: '$100.00 SGD',
   },
   {
     name: 'Hydrating Cream',
     img: '/images/tmp/cart-item-2.png',
     variant: '50ml 1.69 Fl Oz',
     qty: 1,
-    price: '$100.00 SGD'
-  }
+    price: '$100.00 SGD',
+  },
 ])
 </script>
 
 <template>
-  <section class="container mx-auto px-4 py-12 flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-6">
+  <section
+    class="container mx-auto px-4 py-12 flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-6"
+  >
     <div class="flex-1">
       <div class="overflow-x-auto relative">
         <table class="w-full text-sm text-left">
@@ -36,7 +38,11 @@ const cartLineItems = ref([
             </tr>
           </thead>
           <tbody>
-            <tr v-for="(item, i) in cartLineItems" :key="i" class="border-b border-secondary align-top">
+            <tr
+              v-for="(item, i) in cartLineItems"
+              :key="i"
+              class="border-b border-secondary align-top"
+            >
               <th>
                 <button class="btn btn-ghost btn-square">
                   <svg

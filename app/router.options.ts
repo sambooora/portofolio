@@ -17,7 +17,7 @@ export default <RouterConfig>{
       if (to.hash) {
         return {
           el: to.hash,
-          behavior: 'smooth'
+          behavior: 'smooth',
         }
       }
 
@@ -25,13 +25,12 @@ export default <RouterConfig>{
         mainStore.savedScrollPositions[from.path] = {
           x: typeof window !== 'undefined' ? window.screenX : 0,
           y: typeof window !== 'undefined' ? window.scrollY : 0,
-          height: typeof document !== 'undefined' ? document.documentElement.scrollHeight : 0
+          height: typeof document !== 'undefined' ? document.documentElement.scrollHeight : 0,
         }
       }
 
-      return new Promise((resolve) => {
-        const saved =
-          mainStore && to?.path ? mainStore.savedScrollPositions[to.path] : undefined
+      return new Promise(resolve => {
+        const saved = mainStore && to?.path ? mainStore.savedScrollPositions[to.path] : undefined
 
         if (
           saved &&
@@ -47,12 +46,12 @@ export default <RouterConfig>{
           resolve({
             left: saved?.x || 0,
             top: saved?.y || 0,
-            behavior: 'auto'
+            behavior: 'auto',
           })
         }, 0)
       })
     } catch (_e) {
       return { left: 0, top: 0, behavior: 'auto' }
     }
-  }
+  },
 }

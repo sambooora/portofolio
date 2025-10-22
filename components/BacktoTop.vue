@@ -23,7 +23,10 @@ const hovered = ref(false)
 </script>
 
 <template>
-  <div class="fixed bottom-10 right-6 z-20 transition" :class="scrolled ? 'translate-y-0' : 'translate-y-64'">
+  <div
+    class="fixed bottom-10 right-6 z-20 transition"
+    :class="scrolled ? 'translate-y-0' : 'translate-y-64'"
+  >
     <div class="container">
       <button
         class="btn btn-circle btn-md btn-secondary hover:opacity-100 opacity-50"
