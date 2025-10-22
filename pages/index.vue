@@ -35,10 +35,10 @@ useSeo()
     <section
       class="container mx-auto flex flex-col md:flex-row items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 px-4 min-h-screen gap-3"
     >
-      <div class="md:w-1/2 prose-lg xl:prose-xl text-left gap-3 flex flex-col">
+      <div class="md:w-1/2 prose-md xl:prose-xl text-left gap-3 flex flex-col">
         <span class="text-4xl font-bold">Overview</span>
         <h5 class="font-semibold text-lg">Richie Mahfud Ahmed Sambora </h5>
-        <p class="">Hello, my name is Richie and I am a programmer. I have two years of experience in this field and have developed web applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
+        <p>Hello, my name is Richie and I am a programmer. I have two years of experience in this field and have developed web applications for various companies. I am highly skilled in programming languages such as Javascript and PHP and always eager to learn new ones. I believe that technical skills should be accompanied by the ability to work well in a team and solve problems creatively. I am excited to work with you and open to further developing my skills alongside your team.</p>
       </div>
       <div class="w-full md:flex-1 flex items-center justify-center overflow-hidden">
         <img data-aos="fade-up" src="/images/discov-1.png" class="hidden md:block grayscale w-full h-full object-center object-contain" />
@@ -121,7 +121,7 @@ useSeo()
             "
           >
           </div>
-          <h1 class="text-2xl">Picasso Dashboard</h1>
+          <h1 class="text-2xl font-semibold">Picasso Dashboard</h1>
           <p class="text-lg">
 is a website to manage hotel back office such as reservation, campaign management and accounting</p>
         </div>
@@ -137,7 +137,7 @@ is a website to manage hotel back office such as reservation, campaign managemen
             "
           >
           </div>
-          <h1 class="text-2xl">Picasso Restaurant</h1>
+          <h1 class="text-2xl font-semibold">Picasso Restaurant</h1>
           <p class="text-lg">
             Is a website to online menus and ordering restaurant food. to shorten the queue that occurs at the restaurant
           </p>
@@ -154,7 +154,7 @@ is a website to manage hotel back office such as reservation, campaign managemen
             "
           >
           </div>
-          <h1 class="text-2xl">Picasso Landing Page</h1>
+          <h1 class="text-2xl font-semibold">Picasso Landing Page</h1>
           <p class="text-lg">Is a website that aims to be a hotel landing page and promotion center</p>
         </div>
       </div>
@@ -169,9 +169,9 @@ is a website to manage hotel back office such as reservation, campaign managemen
         <div
         class="w-full md:w-1/2 prose-lg xl:prose-xl max-w-2xl md:max-w-3xl text-left p-5 md:p-12 pt-12 md:pt-5"
       >
-        <div data-aos="fade-right">
-          <h2>Skill Sets</h2>
-            <h4 class="font-medium">Design</h4>
+      <div data-aos="fade-right" class="flex flex-col justify-start gap-4">
+          <span class="text-4xl font-bold">Skill Sets</span>
+            <h4 class="font-semibold">Design</h4>
             <div  class="flex flex-col space-y-5">
               <div>
                 <div> Figma, Adobe XD  - UI Design</div>
@@ -186,8 +186,8 @@ is a website to manage hotel back office such as reservation, campaign managemen
                 <progress class="progress w-full" value="95" max="100"></progress>
               </div>
           
-          <div data-aos="fade-right" data-aos-delay="300" class="">
-            <h4 class="font-medium">Coding</h4>
+          <div data-aos="fade-right" data-aos-delay="300" class="flex flex-col justify-start gap-4">
+            <h4 class="font-semibold">Coding</h4>
             <div class="flex flex-col space-y-5">
               <div>
                 <div>Vue, Nuxt - Javascript</div>
