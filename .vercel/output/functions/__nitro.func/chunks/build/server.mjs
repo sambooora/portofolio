@@ -41193,23 +41193,23 @@ const _routes = [
     name: "cart",
     path: "/cart",
     meta: __nuxt_page_meta$2 || {},
-    component: () => import('./cart-VG-JLocB.mjs')
+    component: () => import('./cart-BH7Z9ILD.mjs')
   },
   {
     name: "about",
     path: "/about",
     meta: __nuxt_page_meta$1 || {},
-    component: () => import('./about-Czr8GRcE.mjs')
+    component: () => import('./about-9z8DyZjC.mjs')
   },
   {
     name: "blogs",
     path: "/blogs",
-    component: () => import('./blogs-CysVeuxE.mjs')
+    component: () => import('./blogs-hWFVlik9.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BPRXqgnQ.mjs')
+    component: () => import('./index-DForNWUW.mjs')
   },
   {
     name: "tutor",
@@ -41219,7 +41219,7 @@ const _routes = [
   {
     name: "contact",
     path: "/contact",
-    component: () => import('./contact-CIgTeBsO.mjs')
+    component: () => import('./contact-CtxPa1oH.mjs')
   },
   {
     name: "galleries",
@@ -41230,12 +41230,12 @@ const _routes = [
   {
     name: "products-id",
     path: "/products/:id()",
-    component: () => import('./_id_-DZYbArsd.mjs')
+    component: () => import('./_id_-DecTmUbD.mjs')
   },
   {
     name: "products",
     path: "/products",
-    component: () => import('./index-Dd2ANQJi.mjs')
+    component: () => import('./index-DTPB8d-v.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {

@@ -14,11 +14,19 @@ export const useSeo = (data?: SEOData) => {
   const domain = ref(process.client ? location.origin : '')
 
   if (process.server) {
-    const headers = useRequestHeaders()
-    const host = headers?.host
-    const protocol = headers?.referer?.split('/')?.[0]
-    if (host) {
-      domain.value = protocol ? `${protocol}//${host}` : `https://${host}`
+    try {
+      const headers = useRequestHeaders()
+      const host = headers?.host
+      const referer = headers?.referer
+      const protocol =
+        typeof referer === 'string' ? referer.split('/')?.[0] : undefined
+
+      if (host) {
+        domain.value = protocol ? `${protocol}//${host}` : `https://${host}`
+      }
+    } catch {
+      // fallback jika header tidak tersedia
+      domain.value = ''
     }
   }
 
