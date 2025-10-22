@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         './pages/**/*.vue',
         './plugins/**/*.{js,ts}',
         './nuxt.config.{js,ts}',
-        './app.vue'
+        './app.vue',
       ],
       daisyui: {
         themes: ['night'],
