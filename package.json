@@ -13,31 +13,31 @@
     "node": "22.x"
   },
   "devDependencies": {
+    "@nuxt/kit": "^3.19.3",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/tailwindcss": "^5.3.0",
-    "@pinia/nuxt": "^0.11.1",
-    "@tailwindcss/typography": "^0.5.4",
+    "@pinia/nuxt": "^0.11.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/aos": "^3.0.7",
     "@typescript-eslint/eslint-plugin": "^8.46.2",
     "@typescript-eslint/parser": "^8.46.2",
-    "@types/aos": "^3.0.7",
-    "@nuxt/kit": "^3.17.5",
-    "pathe": "^1.1.2",
     "@vueuse/nuxt": "^8.9.4",
     "aos": "^2.3.4",
     "daisyui": "^3",
-    "eslint": "^8.20.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^8.10.2",
     "eslint-plugin-nuxt": "^3.2.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^4.2.5",
     "eslint-plugin-vue": "^9.28.0",
-    "nuxt": "^3.17.5",
+    "nuxt": "^3.19.3",
+    "pathe": "^1.1.2",
     "prettier": "^2.7.1",
     "push-dir": "^0.4.1",
-    "typescript": "^5.3.0"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "pinia": "^3.0.3",
     "ufo": "^1.5.4",
-    "vue-bundle-renderer": "^2.1.0"
+    "vue-bundle-renderer": "^2.2.0"
   }
 }
