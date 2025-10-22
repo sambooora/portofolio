@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "pinia": "^3.0.3",
-    "ufo": "^1.5.4"
+    "ufo": "^1.5.4",
+    "vue-bundle-renderer": "^2.1.0"
   }
 }
