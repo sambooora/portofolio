@@ -52,11 +52,23 @@ jobs:
         run: pnpm build
 
       - name: Check build output
+        if: ${{ success() }}
         run: |
-          if [ -d ".output" ]; then
-            echo "✅ Build successful - .output directory created"
+          set -e
+          if [ -d ".vercel/output" ]; then
+            echo "✅ Build successful - Vercel output found at .vercel/output"
+            ls -la .vercel/output/
+          elif [ -d ".output" ]; then
+            echo "✅ Build successful - Nitro output found at .output"
             ls -la .output/
+          elif [ -d "dist" ]; then
+            echo "✅ Build successful - static output found at dist"
+            ls -la dist/
+          elif [ -d ".nuxt" ]; then
+            echo "ℹ️ Nuxt build artifacts found at .nuxt"
+            ls -la .nuxt/
           else
-            echo "❌ Build failed - .output directory not found"
+            echo "❌ Build failed - no known output directory found (.vercel/output, .output, dist, .nuxt)"
+            ls -la
             exit 1
           fi

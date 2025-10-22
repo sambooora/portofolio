@@ -39497,7 +39497,7 @@ const payloadPlugin = definePayloadPlugin(() => {
     (data) => !shouldHydrate(data) && 1
   );
 });
-const unhead_yT6A4wp4FxYyF_2oOGPtv_0t1ecsEt1Gz5W6Hs81Eqw = /* @__PURE__ */ defineNuxtPlugin({
+const unhead_eM7KbqQ9c1JlDHEqEFoYQoF3MAAxeCdS7vPgAGzglfo = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:head",
   enforce: "pre",
   setup(nuxtApp) {
@@ -41187,29 +41187,29 @@ const _routes = [
   {
     name: "faq",
     path: "/faq",
-    component: () => import('./faq-DPso2021.mjs')
+    component: () => import('./faq-CwcXyIRq.mjs')
   },
   {
     name: "cart",
     path: "/cart",
     meta: __nuxt_page_meta$2 || {},
-    component: () => import('./cart-BH7Z9ILD.mjs')
+    component: () => import('./cart-CKQJpsW_.mjs')
   },
   {
     name: "about",
     path: "/about",
     meta: __nuxt_page_meta$1 || {},
-    component: () => import('./about-9z8DyZjC.mjs')
+    component: () => import('./about-BBuhXIaF.mjs')
   },
   {
     name: "blogs",
     path: "/blogs",
-    component: () => import('./blogs-hWFVlik9.mjs')
+    component: () => import('./blogs-CCiLcDhw.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-DForNWUW.mjs')
+    component: () => import('./index-DrDGWPTk.mjs')
   },
   {
     name: "tutor",
@@ -41219,7 +41219,7 @@ const _routes = [
   {
     name: "contact",
     path: "/contact",
-    component: () => import('./contact-CtxPa1oH.mjs')
+    component: () => import('./contact-zkeMFzIJ.mjs')
   },
   {
     name: "galleries",
@@ -41230,12 +41230,12 @@ const _routes = [
   {
     name: "products-id",
     path: "/products/:id()",
-    component: () => import('./_id_-DecTmUbD.mjs')
+    component: () => import('./_id_-D_p6SXA6.mjs')
   },
   {
     name: "products",
     path: "/products",
-    component: () => import('./index-DTPB8d-v.mjs')
+    component: () => import('./index-kmrcRAx7.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -41342,45 +41342,33 @@ const useMainStore = defineStore("app", {
         id: "1",
         name: "Picasso Dashboard",
         img: "/images/tmp/products/product-1.png",
-        href: "https://dashboard.picassorewards.com/",
-        variants: [
-          {
-            name: "ERP",
-            price: 100
-          },
-          {
-            name: "3x 20 ml 0.68 Fl Oz",
-            price: 200
-          }
-        ],
         description: `
-    <p>This project is a redesign and redevelop of ERP Application of Grand Picasso Hotel. Grand Picasso Hotel is a Hotel 3 stars in Jakarta, Indonesia. In this project, My Role is Front End Developer and Designer. This project is a website to manage hotel back office such as reservation, campaign management and accounting I develope this Project with Stack :</p>
-    <ul>
-      <li>Boostrap</li>
-      <li>Nuxt JS</li>
-      <li>Axios for Connection with APi</li>
-    </ul>
-    `
+          <p>This project is a redesign and redevelop of ERP Application of Grand Picasso Hotel. Grand Picasso Hotel is a Hotel 3 stars in Jakarta, Indonesia. In this project, My Role is Front End Developer and Designer. This project
+            is a website to manage hotel back office such as reservation,
+            campaign management and accounting
+          I develope this Project with Stack :</p>
+          <ul>
+            <li>Boostrap</li>
+            <li>Nuxt JS</li>
+            <li>Axios for Connection with APi</li>
+          </ul>
+        `
       },
       {
         id: "2",
         name: "Pablo Restaurant",
         img: "/images/tmp/products/product-2.png",
-        href: "https://resto.picassorewards.com/pablo-all-dining-bar",
-        variants: [
-          {
-            name: "50 ml 1.69 Fl Oz",
-            price: 100
-          }
-        ],
         description: `
-    <p>This project is a develop from scratch of Landing Page and Order Food App of Pablo Restaurant. Pablo Resto is a Resto under management of Grand Picasso Hotel in Jakarta, Indonesia. In this project, My Role is Front End Developer and also Designer. I develope this Project with Stack :</p>
-    <ul>
-      <li>Tailwind CSS</li>
-      <li>Nuxt JS</li>
-      <li>Axios for Connection with APi</li>
-    </ul>
-    `
+          <p>This project is a develop from scratch of Landing Page and Order Food App of Pablo Restaurant. Pablo Resto is a Resto under management of Grand Picasso Hotel in Jakarta, Indonesia. In this project, My Role is Front End Developer and also Designer.
+            Is a website that aims to be a hotel landing page and promotion
+            center
+          I develope this Project with Stack :</p>
+          <ul>
+            <li>Tailwind CSS</li>
+            <li>Nuxt JS</li>
+            <li>Axios for Connection with APi</li>
+          </ul>
+        `
       }
       //   {
       //     id: '3',
@@ -41668,7 +41656,7 @@ const reducers = [
   ["Ref", (data) => vueExports.isRef(data) && data.value],
   ["Reactive", (data) => vueExports.isReactive(data) && vueExports.toRaw(data)]
 ];
-const revive_payload_server_qy2PHuoQvhlKkbkkFjcMaYsiWfdgAn6gvdX4rp8XQvo = /* @__PURE__ */ defineNuxtPlugin({
+const revive_payload_server_TXeTv_DSBRWnnQpppTqsQcq8YgeHeWPQ4rRvQ0YU_30 = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:revive-payload:server",
   setup() {
     for (const [reducer, fn] of reducers) {
@@ -41734,9 +41722,9 @@ const components_plugin_z4hgvsiddfKkfXTP6M8M4zG5Cb7sGnDhcryKVM45Di4 = /* @__PURE
 });
 const plugins = [
   payloadPlugin,
-  unhead_yT6A4wp4FxYyF_2oOGPtv_0t1ecsEt1Gz5W6Hs81Eqw,
+  unhead_eM7KbqQ9c1JlDHEqEFoYQoF3MAAxeCdS7vPgAGzglfo,
   plugin$1,
-  revive_payload_server_qy2PHuoQvhlKkbkkFjcMaYsiWfdgAn6gvdX4rp8XQvo,
+  revive_payload_server_TXeTv_DSBRWnnQpppTqsQcq8YgeHeWPQ4rRvQ0YU_30,
   plugin,
   components_plugin_z4hgvsiddfKkfXTP6M8M4zG5Cb7sGnDhcryKVM45Di4
 ];
@@ -43975,7 +43963,7 @@ function requireServerRenderer_cjs_prod() {
 }
 var serverRenderer_cjs_prodExports = requireServerRenderer_cjs_prod();
 const layouts = {
-  default: vueExports.defineAsyncComponent(() => import('./default-BFsxWn2e.mjs').then((m) => m.default || m))
+  default: vueExports.defineAsyncComponent(() => import('./default-CgqzBxaW.mjs').then((m) => m.default || m))
 };
 const LayoutLoader = vueExports.defineComponent({
   name: "LayoutLoader",
@@ -44240,8 +44228,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = vueExports.defineAsyncComponent(() => import('./error-404-B7Q5mzB8.mjs'));
-    const _Error = vueExports.defineAsyncComponent(() => import('./error-500-lEbb_Osw.mjs'));
+    const _Error404 = vueExports.defineAsyncComponent(() => import('./error-404-Dfqc0I13.mjs'));
+    const _Error = vueExports.defineAsyncComponent(() => import('./error-500-vp49LHK4.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(serverRenderer_cjs_prodExports.ssrRenderComponent(vueExports.unref(ErrorTemplate), vueExports.mergeProps({ statusCode: vueExports.unref(statusCode), statusMessage: vueExports.unref(statusMessage), description: vueExports.unref(description), stack: vueExports.unref(stack) }, _attrs), null, _parent));
@@ -44251,7 +44239,7 @@ const _sfc_main$1 = {
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/.pnpm/nuxt@3.17.5_@parcel+watcher@2.5.1_@types+node@24.0.3_db0@0.3.2_eslint@8.57.1_ioredis@5._f5e3fec678f409e78d513be52b8a3b64/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/.pnpm/nuxt@3.17.5_@netlify+blobs@9.1.2_@parcel+watcher@2.5.1_@types+node@24.0.3_db0@0.3.2_eslint@8._yk5gcghud5injywja2eanvtvb4/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
 const _sfc_main = {
@@ -44299,7 +44287,7 @@ const _sfc_main = {
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = vueExports.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/.pnpm/nuxt@3.17.5_@parcel+watcher@2.5.1_@types+node@24.0.3_db0@0.3.2_eslint@8.57.1_ioredis@5._f5e3fec678f409e78d513be52b8a3b64/node_modules/nuxt/dist/app/components/nuxt-root.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/.pnpm/nuxt@3.17.5_@netlify+blobs@9.1.2_@parcel+watcher@2.5.1_@types+node@24.0.3_db0@0.3.2_eslint@8._yk5gcghud5injywja2eanvtvb4/node_modules/nuxt/dist/app/components/nuxt-root.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
 let entry;
