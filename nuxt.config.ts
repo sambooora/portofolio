@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     externals: {
       inline: ['vue-bundle-renderer'],
     },
+    inlineDependencies: true,
   },
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@vueuse/nuxt'],
   plugins: ['@/plugins/aos.client.ts'],
