@@ -41412,34 +41412,8 @@ const useMainStore = defineStore("app", {
 });
 const routerOptions1 = {
   scrollBehavior: (to, from) => {
-    const nuxtApp = useNuxtApp();
-    if (to.hash) {
-      return {
-        el: to.hash,
-        behavior: "smooth"
-      };
-    } else if (nuxtApp.$pinia) {
-      const mainStore = useMainStore(nuxtApp.$pinia);
-      mainStore.savedScrollPositions[from.path] = {
-        x: (void 0).screenX,
-        y: (void 0).scrollY,
-        height: (void 0).documentElement.scrollHeight
-      };
-      return new Promise((resolve) => {
-        if (mainStore.savedScrollPositions[to.path] && (void 0).documentElement.scrollHeight <= mainStore.savedScrollPositions[to.path].height) {
-          (void 0).body.style.minHeight = mainStore.savedScrollPositions[to.path].height.toString() + "px";
-        } else {
-          (void 0).body.style.minHeight = "0";
-        }
-        setTimeout(() => {
-          var _a2, _b2;
-          resolve({
-            left: ((_a2 = mainStore.savedScrollPositions[to.path]) == null ? void 0 : _a2.x) || 0,
-            top: ((_b2 = mainStore.savedScrollPositions[to.path]) == null ? void 0 : _b2.y) || 0,
-            behavior: "auto"
-          });
-        }, 0);
-      });
+    {
+      return { left: 0, top: 0, behavior: "auto" };
     }
   }
 };
