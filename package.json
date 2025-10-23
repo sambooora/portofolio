@@ -6,7 +6,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "lint": "eslint . --ext .ts,.vue --config .eslintrc.cjs",
-    "typecheck": "nuxt prepare && tsc -p tsconfig.json --noEmit"
+    "typecheck": "nuxt prepare && tsc -p tsconfig.json --noEmit",
+    "preview:node": "NITRO_PRESET=node nuxt build && nuxt preview",
+    "preview:server": "NITRO_PRESET=node-server nuxt build && nuxt preview",
+    "start:output": "node .output/server/index.mjs"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {

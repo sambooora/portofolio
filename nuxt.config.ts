@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   nitro: {
-    preset: 'vercel',
+    preset: process.env.NITRO_PRESET || 'vercel',
     externals: {
       inline: ['vue-bundle-renderer'],
     },
