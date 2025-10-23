@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm build",
+  "framework": "nuxt",
+  "outputDirectory": ".output"
+}
