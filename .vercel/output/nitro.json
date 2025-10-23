@@ -1,6 +1,6 @@
 {
-  "date": "2025-10-23T03:10:06.404Z",
-  "preset": "vercel",
+  "date": "2025-10-23T03:39:08.972Z",
+  "preset": "vercel-edge",
   "framework": {
     "name": "nuxt",
     "version": "3.19.3"
