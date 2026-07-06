@@ -8,7 +8,7 @@ useSeo()
     <!-- HERO SECTION                                 -->
     <!-- ============================================ -->
     <section
-      class="-mt-16 sm:-mt-20 md:-mt-24 relative flex flex-col overflow-hidden"
+      class="-mt-16 sm:-mt-20 lg:-mt-24 relative flex flex-col overflow-hidden"
       style="min-height: 100vh"
     >
       <!-- Background image + gradient overlay -->
@@ -26,14 +26,14 @@ useSeo()
 
       <!-- Content -->
       <div
-        class="container relative z-10 mx-auto flex flex-1 flex-col justify-end px-5 pb-10 pt-28 sm:px-6 sm:pb-16 sm:pt-32 md:px-10 lg:px-16"
+        class="container relative z-10 mx-auto flex flex-1 flex-col justify-end px-5 pb-8 pt-24 sm:px-6 sm:pb-16 sm:pt-32 md:px-10 lg:px-16"
       >
 
         <!-- Main heading + subtext row -->
         <div class="flex flex-col gap-6 sm:gap-10 lg:flex-row lg:items-end lg:justify-between">
           <div data-aos="fade-up" data-aos-duration="800" class="max-w-4xl">
             <h1
-              class="text-5xl font-extrabold leading-[0.9] tracking-tight text-white sm:text-6xl md:text-7xl xl:text-8xl"
+              class="text-4xl font-extrabold leading-[0.9] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
             >
               Creative<br />
               <span class="text-orange-500">Developer</span>
@@ -55,28 +55,28 @@ useSeo()
         <div
           data-aos="fade-up"
           data-aos-delay="400"
-          class="mt-10 grid grid-cols-2 gap-4 border-t border-base-content/10 pt-6 sm:mt-16 sm:gap-6 sm:pt-8 md:grid-cols-4"
+          class="mt-8 grid grid-cols-2 gap-3 border-t border-base-content/10 pt-5 sm:mt-16 sm:gap-6 sm:pt-8 md:grid-cols-4"
         >
           <div class="flex flex-col gap-1">
-            <span class="text-4xl font-bold text-orange-500">#01</span>
+            <span class="text-lg font-bold text-orange-500 sm:text-4xl">#01</span>
             <span class="text-sm font-medium text-base-content/90"
               >UI/UX Design</span
             >
           </div>
           <div class="flex flex-col gap-1">
-            <span class="text-4xl font-bold text-orange-500">#02</span>
+            <span class="text-lg font-bold text-orange-500 sm:text-4xl">#02</span>
             <span class="text-sm font-medium text-base-content/90"
               >Front-End Development</span
             >
           </div>
           <div class="flex flex-col gap-1">
-            <span class="text-4xl font-bold text-orange-500">#03</span>
+            <span class="text-lg font-bold text-orange-500 sm:text-4xl">#03</span>
             <span class="text-sm font-medium text-base-content/90"
               >Brand Identity</span
             >
           </div>
           <div class="flex flex-col gap-1">
-            <span class="text-4xl font-bold text-orange-500">#04</span>
+            <span class="text-lg font-bold text-orange-500 sm:text-4xl">#04</span>
             <span class="text-sm font-medium text-base-content/90"
               >Creative Direction</span
             >
@@ -102,13 +102,13 @@ useSeo()
           data-aos="fade-left"
           class="flex flex-1 flex-wrap items-center justify-center gap-x-6 gap-y-3 sm:gap-x-10 sm:gap-y-4 md:justify-end"
         >
-          <span class="text-sm font-bold tracking-wide text-base-content/20 sm:text-lg"
+          <span class="text-sm font-bold tracking-wide text-base-content/50 sm:text-lg"
             >PICASSO</span
           >
-          <span class="text-sm font-bold tracking-wide text-base-content/20 sm:text-lg"
+          <span class="text-sm font-bold tracking-wide text-base-content/50 sm:text-lg"
             >JOGJANODE</span
           >
-          <span class="text-sm font-bold tracking-wide text-base-content/20 sm:text-lg"
+          <span class="text-sm font-bold tracking-wide text-base-content/50 sm:text-lg"
             >CGV</span
           >
         </div>
@@ -120,8 +120,8 @@ useSeo()
     <!-- ============================================ -->
     <section class="relative bg-base-100 py-16 sm:py-24 md:py-32 overflow-hidden">
       <!-- Background orange glow accents -->
-      <div class="absolute -bottom-32 -right-32 h-72 w-72 rounded-full bg-orange-500/20 blur-[120px] sm:h-96 sm:w-96" />
-      <div class="absolute -top-20 -left-20 h-48 w-48 rounded-full bg-orange-500/10 blur-[100px]" />
+      <div class="absolute -bottom-32 -right-32 h-72 w-72 rounded-full bg-orange-500/50 blur-[120px] sm:h-96 sm:w-96" />
+      <div class="absolute -top-20 -left-20 h-48 w-48 rounded-full bg-orange-500/20 blur-[100px]" />
 
       <div class="container relative z-10 mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
         <!-- Glassmorphism card -->
@@ -130,7 +130,7 @@ useSeo()
           class="relative rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur-xl sm:rounded-3xl sm:p-10 md:p-12 lg:p-16"
         >
           <!-- Inner subtle glow -->
-          <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-orange-500/[0.04] via-transparent to-transparent sm:rounded-3xl" />
+          <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-orange-500/10 via-transparent to-transparent sm:rounded-3xl" />
 
           <!-- Top row: label + number -->
           <div class="relative flex items-center justify-between mb-10 sm:mb-14">
@@ -231,7 +231,7 @@ useSeo()
           </div>
 
           <!-- Decorative orange quote mark (bottom-right) -->
-          <div class="absolute -bottom-6 -right-4 text-orange-500/80 sm:-bottom-8 sm:-right-6">
+          <div class="absolute -bottom-6 -right-4 text-orange-500/90 sm:-bottom-8 sm:-right-6">
             <svg class="h-24 w-24 sm:h-32 sm:w-32" viewBox="0 0 100 100" fill="currentColor">
               <path d="M20 70 L20 45 Q20 30 35 30 L40 30 L40 20 L35 20 Q10 20 10 45 L10 70 Z" />
               <path d="M55 70 L55 45 Q55 30 70 30 L75 30 L75 20 L70 20 Q45 20 45 45 L45 70 Z" />

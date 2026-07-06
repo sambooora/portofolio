@@ -13,10 +13,10 @@ const currentYear = new Date().getFullYear()
             <img
               src="/images/logo-footer.png"
               alt="Richie Sambora"
-              class="h-9 w-auto lg:h-20"
+              class="h-12 w-auto lg:h-16"
             />
           </NuxtLink>
-          <p class="max-w-sm text-sm leading-relaxed text-base-content/50">
+          <p class="max-w-sm text-sm leading-relaxed text-base-content/90">
             I design and develop experiences that make people's lives simple.
             Crafting clean, intuitive interfaces powered by modern technology.
           </p>
@@ -80,13 +80,13 @@ const currentYear = new Date().getFullYear()
             <div class="flex flex-col gap-3">
               <NuxtLink
                 to="/"
-                class="text-sm text-base-content/50 transition-colors hover:text-white"
+                class="text-sm text-base-content/70 transition-colors hover:text-white"
               >
                 Overview
               </NuxtLink>
               <NuxtLink
                 to="/project"
-                class="text-sm text-base-content/50 transition-colors hover:text-white"
+                class="text-sm text-base-content/70 transition-colors hover:text-white"
               >
                 Projects
               </NuxtLink>
@@ -103,7 +103,7 @@ const currentYear = new Date().getFullYear()
                 href="https://twitter.com/sambooora"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-sm text-base-content/50 transition-colors hover:text-white"
+                class="text-sm text-base-content/70 transition-colors hover:text-white"
               >
                 Twitter / X
               </a>
@@ -111,7 +111,7 @@ const currentYear = new Date().getFullYear()
                 href="https://github.com/sambooora"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-sm text-base-content/50 transition-colors hover:text-white"
+                class="text-sm text-base-content/70 transition-colors hover:text-white"
               >
                 GitHub
               </a>
@@ -119,7 +119,7 @@ const currentYear = new Date().getFullYear()
                 href="https://instagram.com/sambooora"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-sm text-base-content/50 transition-colors hover:text-white"
+                class="text-sm text-base-content/70 transition-colors hover:text-white"
               >
                 Instagram
               </a>
@@ -127,7 +127,7 @@ const currentYear = new Date().getFullYear()
                 href="https://dribbble.com/richiesambora9029"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-sm text-base-content/50 transition-colors hover:text-white"
+                class="text-sm text-base-content/70 transition-colors hover:text-white"
               >
                 Dribbble
               </a>
@@ -142,7 +142,7 @@ const currentYear = new Date().getFullYear()
             <div class="flex flex-col gap-3">
               <a
                 href="mailto:richiesambora9029@gmail.com"
-                class="text-sm text-base-content/50 transition-colors hover:text-white"
+                class="text-sm text-base-content/70 transition-colors hover:text-white"
               >
                 richiesambora9029@gmail.com
               </a>

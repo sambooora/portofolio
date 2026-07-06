@@ -52,14 +52,14 @@ onBeforeUnmount(() => {
       isTransparent ? '' : 'border-b border-base-content/5',
     ]"
   >
-    <div class="container mx-auto px-6 md:px-10 lg:px-16">
+    <div class="container mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
       <nav class="flex h-16 items-center justify-between sm:h-20 lg:h-24">
         <!-- Logo -->
         <NuxtLink to="/" class="relative z-50 shrink-0">
           <img
             src="/images/logo-footer.png"
             alt="Richie Sambora"
-            class="h-8 w-auto sm:h-9 lg:h-20"
+            class="h-12 w-auto sm:h-16 lg:h-20"
           />
         </NuxtLink>
 
