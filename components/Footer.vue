@@ -1,71 +1,165 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const currentYear = new Date().getFullYear()
+</script>
 
 <template>
-  <footer class="container flex flex-col mx-auto footer p-4 mt-16">
-    <img src="/images/logo-footer.png" alt="" class="w-72" />
-    <div
-      class="flex flex-col lg:flex-row justify-between space-y-5 lg:space-y-0 lg:space-x-5 text-lg"
-    >
-      <div class="lg:w-1/2 flex flex-col">
-        <p>
-          I design and develop Experiences thats make people's live simple. For more information
-          about me, you can contact me at.
-        </p>
-        <div class="flex flex-row w-56 space-x-4 p-3">
-          <a href="https://twitter.com/sambooora" target="_blank">
-            <div class="w-5 h-5">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
-                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                />
+  <footer class="border-t border-base-content/10 bg-base-100">
+    <!-- Main footer content -->
+    <div class="container mx-auto px-6 pb-12 pt-16 md:px-10 lg:px-16">
+      <div class="flex flex-col gap-12 lg:flex-row lg:gap-24">
+        <!-- Left: Brand + description -->
+        <div class="flex flex-col gap-6 lg:w-5/12">
+          <NuxtLink to="/">
+            <img
+              src="/images/logo-footer.png"
+              alt="Richie Sambora"
+              class="h-9 w-auto lg:h-10"
+            />
+          </NuxtLink>
+          <p class="max-w-sm text-sm leading-relaxed text-base-content/50">
+            I design and develop experiences that make people's lives simple.
+            Crafting clean, intuitive interfaces powered by modern technology.
+          </p>
+
+          <!-- Social icons -->
+          <div class="flex items-center gap-4">
+            <a
+              href="https://twitter.com/sambooora"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex h-9 w-9 items-center justify-center rounded-full border border-base-content/10 text-base-content/40 transition-all hover:border-orange-500/50 hover:text-orange-500"
+              aria-label="Twitter"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
               </svg>
-            </div>
-          </a>
-          <a href="https://github.com/sambooora" target="_blank">
-            <div class="w-5 h-5">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 496 512">
-                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                />
+            </a>
+            <a
+              href="https://github.com/sambooora"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex h-9 w-9 items-center justify-center rounded-full border border-base-content/10 text-base-content/40 transition-all hover:border-orange-500/50 hover:text-orange-500"
+              aria-label="GitHub"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
               </svg>
-            </div>
-          </a>
-          <a href="https://dribbble.com/richiesambora9029" target="_blank">
-            <div class="w-5 h-5">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
-                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M148.7 171.3L64.21 86.83c-28.39 32.16-48.9 71.38-58.3 114.8C19.41 205.4 33.34 208 48 208C86.34 208 121.1 193.9 148.7 171.3zM194.5 171.9L256 233.4l169.2-169.2C380 24.37 320.9 0 256 0C248.6 0 241.2 .4922 233.1 1.113C237.8 16.15 240 31.8 240 48C240 95.19 222.8 138.4 194.5 171.9zM208 48c0-14.66-2.623-28.59-6.334-42.09C158.2 15.31 118.1 35.82 86.83 64.21l84.48 84.48C193.9 121.1 208 86.34 208 48zM171.9 194.5C138.4 222.8 95.19 240 48 240c-16.2 0-31.85-2.236-46.89-6.031C.4922 241.2 0 248.6 0 256c0 64.93 24.37 124 64.21 169.2L233.4 256L171.9 194.5zM317.5 340.1L256 278.6l-169.2 169.2C131.1 487.6 191.1 512 256 512c7.438 0 14.75-.4922 22.03-1.113C274.2 495.8 272 480.2 272 464C272 416.8 289.2 373.6 317.5 340.1zM363.3 340.7l84.48 84.48c28.39-32.16 48.9-71.38 58.3-114.8C492.6 306.6 478.7 304 464 304C425.7 304 390.9 318.1 363.3 340.7zM447.8 86.83L278.6 256l61.52 61.52C373.6 289.2 416.8 272 464 272c16.2 0 31.85 2.236 46.89 6.031C511.5 270.8 512 263.4 512 256C512 191.1 487.6 131.1 447.8 86.83zM304 464c0 14.66 2.623 28.59 6.334 42.09c43.46-9.4 82.67-29.91 114.8-58.3l-84.48-84.48C318.1 390.9 304 425.7 304 464z"
-                />
+            </a>
+            <a
+              href="https://dribbble.com/richiesambora9029"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex h-9 w-9 items-center justify-center rounded-full border border-base-content/10 text-base-content/40 transition-all hover:border-orange-500/50 hover:text-orange-500"
+              aria-label="Dribbble"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0C5.375 0 0 5.375 0 12s5.375 12 12 12 12-5.375 12-12S18.625 0 12 0zm7.938 5.563a10.17 10.17 0 012.25 6.375c-.328-.063-3.625-.734-6.938-.328-.063-.156-.125-.297-.203-.453-.219-.5-.453-.984-.703-1.469 3.672-1.5 5.328-3.641 5.594-3.953v-.172zM12 1.828c2.578 0 4.938.984 6.703 2.578-.219.281-1.734 2.281-5.266 3.609-1.641-3.016-3.469-5.484-3.75-5.859A10.258 10.258 0 0112 1.828zM7.703 3.047c.266.344 2.063 2.844 3.734 5.797-4.703 1.25-8.859 1.234-9.297 1.234a10.22 10.22 0 015.563-7.031zM1.813 12.016v-.313c.422.016 5.234.063 10.234-1.422.281.547.547 1.109.797 1.672-.125.031-.25.078-.375.125-5.25 1.688-8.047 6.313-8.313 6.75a10.158 10.158 0 01-2.343-6.813zM12 22.203a10.15 10.15 0 01-6.281-2.172c.203-.422 2.313-4.359 8.063-6.375l.063-.016a37.468 37.468 0 012.156 7.641A10.092 10.092 0 0112 22.203zm3.797-1.266a38.422 38.422 0 00-2.031-7.313c3.094-.5 5.797.313 6.141.422a10.209 10.209 0 01-4.109 6.891z" />
               </svg>
+            </a>
+            <a
+              href="https://instagram.com/sambooora"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex h-9 w-9 items-center justify-center rounded-full border border-base-content/10 text-base-content/40 transition-all hover:border-orange-500/50 hover:text-orange-500"
+              aria-label="Instagram"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Navigation columns -->
+        <div class="flex flex-1 flex-col gap-8 sm:flex-row sm:gap-12 lg:justify-end lg:gap-24">
+          <!-- Pages -->
+          <div class="flex flex-col gap-4">
+            <span class="text-xs font-semibold uppercase tracking-[0.2em] text-orange-500">
+              Pages
+            </span>
+            <div class="flex flex-col gap-3">
+              <NuxtLink
+                to="/"
+                class="text-sm text-base-content/50 transition-colors hover:text-white"
+              >
+                Overview
+              </NuxtLink>
+              <NuxtLink
+                to="/products"
+                class="text-sm text-base-content/50 transition-colors hover:text-white"
+              >
+                Projects
+              </NuxtLink>
             </div>
-          </a>
-        </div>
-      </div>
-      <div
-        class="lg:flex-1 w-full flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-5 lg:justify-between"
-      >
-        <div class="flex flex-col space-y-2">
-          <NuxtLink to="/">Overview</NuxtLink>
-          <NuxtLink to="/products">Project</NuxtLink>
-        </div>
-        <div class="flex flex-col space-y-2">
-          <a href="https://twitter.com/sambooora" target="_blank">Twitter</a>
-          <a href="https://github.com/sambooora" target="_blank">GitHub</a>
-          <a href="https://instagram.com/sambooora" target="_blank">Instagram</a>
-          <a href="https://dribbble.com/richiesambora9029" target="_blank">Dribble</a>
-        </div>
-        <div class="flex flex-col space-y-2">
-          <NuxtLink to="/">Galleries</NuxtLink>
-          <NuxtLink to="/">Blogs</NuxtLink>
-          <NuxtLink to="/">Tutorials</NuxtLink>
+          </div>
+
+          <!-- Socials -->
+          <div class="flex flex-col gap-4">
+            <span class="text-xs font-semibold uppercase tracking-[0.2em] text-orange-500">
+              Socials
+            </span>
+            <div class="flex flex-col gap-3">
+              <a
+                href="https://twitter.com/sambooora"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-base-content/50 transition-colors hover:text-white"
+              >
+                Twitter / X
+              </a>
+              <a
+                href="https://github.com/sambooora"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-base-content/50 transition-colors hover:text-white"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://instagram.com/sambooora"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-base-content/50 transition-colors hover:text-white"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://dribbble.com/richiesambora9029"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-base-content/50 transition-colors hover:text-white"
+              >
+                Dribbble
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="flex flex-col gap-4">
+            <span class="text-xs font-semibold uppercase tracking-[0.2em] text-orange-500">
+              Contact
+            </span>
+            <div class="flex flex-col gap-3">
+              <a
+                href="mailto:richiesambora9029@gmail.com"
+                class="text-sm text-base-content/50 transition-colors hover:text-white"
+              >
+                richiesambora9029@gmail.com
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="w-full flex justify-center items-center text-sm">
-      <p class="text-center">Build With Love - Richie Sambora</p>
+
+    <!-- Bottom bar -->
+    <div class="border-t border-base-content/5">
+      <div
+        class="container mx-auto flex flex-col items-center justify-between gap-2 px-6 py-6 text-xs text-base-content/30 sm:flex-row md:px-10 lg:px-16"
+      >
+        <p>&copy; {{ currentYear }} Richie Sambora. All rights reserved.</p>
+        <p>Built with <span class="text-orange-500">&hearts;</span> &amp; Nuxt</p>
+      </div>
     </div>
   </footer>
 </template>
