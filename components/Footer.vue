@@ -13,7 +13,7 @@ const currentYear = new Date().getFullYear()
             <img
               src="/images/logo-footer.png"
               alt="Richie Sambora"
-              class="h-9 w-auto lg:h-10"
+              class="h-9 w-auto lg:h-20"
             />
           </NuxtLink>
           <p class="max-w-sm text-sm leading-relaxed text-base-content/50">
@@ -85,7 +85,7 @@ const currentYear = new Date().getFullYear()
                 Overview
               </NuxtLink>
               <NuxtLink
-                to="/products"
+                to="/project"
                 class="text-sm text-base-content/50 transition-colors hover:text-white"
               >
                 Projects

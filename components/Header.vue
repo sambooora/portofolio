@@ -59,7 +59,7 @@ onBeforeUnmount(() => {
           <img
             src="/images/logo-footer.png"
             alt="Richie Sambora"
-            class="h-8 w-auto sm:h-9 lg:h-10"
+            class="h-8 w-auto sm:h-9 lg:h-20"
           />
         </NuxtLink>
 
@@ -73,9 +73,9 @@ onBeforeUnmount(() => {
             Overview
           </NuxtLink>
           <NuxtLink
-            to="/products"
-            class="text-sm font-medium tracking-wide transition-colors hover:text-orange-500"
-            :class="route.path === '/products' ? 'text-orange-500' : ''"
+            to="/project"
+                        class="text-sm font-medium tracking-wide transition-colors hover:text-orange-500"
+                        :class="route.path === '/project' ? 'text-orange-500' : ''"
           >
             Projects
           </NuxtLink>
@@ -148,9 +148,9 @@ onBeforeUnmount(() => {
             Overview
           </NuxtLink>
           <NuxtLink
-            to="/products"
-            class="rounded-xl px-4 py-3 text-lg font-medium transition-colors hover:bg-base-content/5 hover:text-orange-500"
-            :class="route.path === '/products' ? 'text-orange-500' : 'text-base-content'"
+            to="/project"
+                        class="rounded-xl px-4 py-3 text-lg font-medium transition-colors hover:bg-base-content/5 hover:text-orange-500"
+                        :class="route.path === '/project' ? 'text-orange-500' : 'text-base-content'"
             @click="mobileMenuOpen = false"
           >
             Projects

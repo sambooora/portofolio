@@ -25,7 +25,7 @@ export const useMainStore = defineStore('app', {
     subcribtionVisible: true,
     savedScrollPositions: {},
     seo: undefined,
-    pathWithBaseBg: ['/', '/cart', '/products'],
+    pathWithBaseBg: ['/', '/cart', '/project'],
     products: [
       {
         id: '1',
