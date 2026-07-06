@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const mainStore = useMainStore()
 const route = useRoute()
 const isTransparent = ref(false)
 const animateOnScroll = ref(false)

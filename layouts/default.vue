@@ -20,7 +20,7 @@ const route = useRoute()
     :class="route.meta.bg || 'bg-base-100'"
   >
     <div>
-      <Header v-if="$route.path !== '/checkout'" />
+      <Header />
       <slot />
       <BacktoTop />
     </div>

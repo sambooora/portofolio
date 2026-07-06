@@ -1,31 +1,15 @@
 import { defineStore } from 'pinia'
 
-type Seo = {
-  title?: string
-  description?: string
-  image?: string
-}
-
 type State = {
-  cartVisible: boolean
-  shopMenuVisible: boolean
-  subcribtionVisible: boolean
   savedScrollPositions: {
     [key: string]: { x: number; y: number; height: number }
   }
-  seo?: Seo
-  pathWithBaseBg: string[]
   products: Product[]
 }
 
 export const useMainStore = defineStore('app', {
   state: (): State => ({
-    cartVisible: false,
-    shopMenuVisible: false,
-    subcribtionVisible: true,
     savedScrollPositions: {},
-    seo: undefined,
-    pathWithBaseBg: ['/', '/cart', '/project'],
     products: [
       {
         id: '1',
@@ -59,32 +43,6 @@ export const useMainStore = defineStore('app', {
           </ul>
         `,
       },
-      //   {
-      //     id: '3',
-      //     name: 'Picasso Landing',
-      //     img: '/images/tmp/products/product-3.png',
-      //     variants: [
-      //       {
-      //         name: '10 ml 0.34 Fl Oz',
-      //         price: 100
-      //       }
-      //     ],
-      //     description: `
-      // <p>Moisturized, soothed and ultimately refreshed skin. With Natural Cellulose, Pure Water, Disodium EDTA, Xanthan Gum and Sorbitol. Proskin face mask is made from a natural cellulose that is fabricated via a biofabrication process, known for its advanced healing and repair properties. Perfect for rejuvenating skin whenever you need some TLC.</p>
-      // <ul>
-      //   <li>Promotes skin healing and younger looking skin</li>
-      //   <li>Fragrance and alcohol free</li>
-      //   <li>Easy-to-use</li>
-      //   <li>Naturally sourced and cruelty-free</li>
-      // </ul>
-      // `
-      //   }
     ],
   }),
-
-  actions: {
-    toggleCartVisibility() {
-      this.cartVisible = !this.cartVisible
-    },
-  },
 })

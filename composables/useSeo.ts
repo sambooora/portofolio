@@ -29,13 +29,15 @@ export const useSeo = (data?: SEOData) => {
     }
   }
 
-  const title = ref(data?.title ? `${data?.title} — Richie Sambora` : 'Richie Sambora')
+  const title = ref(
+    data?.title ? `${data?.title} — Richie Sambora` : 'Richie Sambora — Creative Developer'
+  )
   const canonical = ref(`${domain.value}${route.fullPath}`)
   const description = ref(
     data?.description ||
-      'Achieve healthy, rejuvenated skin with our advanced manufacturing technology'
+      'Great design should feel invisible. From UI to code, I build digital experiences that connect and convert.'
   )
-  const image = ref(data?.image || `${domain.value}/images/icon.png`)
+  const image = ref(data?.image || `${domain.value}/images/hero-1.jpg`)
   const type = ref(data?.type ? data.type : 'website')
 
   const link = ref([
@@ -53,7 +55,7 @@ export const useSeo = (data?: SEOData) => {
       property: 'og:description',
       content: description.value,
     },
-    { hid: 'og:site_name', property: 'og:site_name', content: 'Aquifer' },
+    { hid: 'og:site_name', property: 'og:site_name', content: 'Richie Sambora' },
     { hid: 'og:image:alt', property: 'og:image:alt', content: title.value },
     { hid: 'og:image', property: 'og:image', content: image.value },
   ])
@@ -64,11 +66,11 @@ export const useSeo = (data?: SEOData) => {
       property: 'twitter:card',
       content: 'summary_large_image',
     },
-    { hid: 'twitter:site', property: 'twitter:site', content: '@aquifer' },
+    { hid: 'twitter:site', property: 'twitter:site', content: '@richiesambora' },
     {
       hid: 'twitter:creator',
       property: 'twitter:creator',
-      content: '@aquifer',
+      content: '@sambooora',
     },
     { hid: 'twitter:title', property: 'twitter:title', content: title.value },
     {
