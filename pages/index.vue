@@ -279,8 +279,8 @@ useSeo()
           >
             <div class="relative aspect-[4/3] overflow-hidden">
               <img
-                src="/images/product-1.png"
-                alt="Picasso Dashboard"
+                src="/images/habitfuel-1.png"
+                alt="HabitFuel"
                 class="h-full w-full object-cover object-center grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               />
               <div
@@ -289,10 +289,10 @@ useSeo()
             </div>
             <div class="flex flex-1 flex-col gap-2 p-5 sm:p-6">
               <span class="text-xs font-bold text-orange-500">#01</span>
-              <h3 class="text-lg font-bold text-white sm:text-xl">Picasso Dashboard</h3>
+              <h3 class="text-lg font-bold text-white sm:text-xl">HabitFuel</h3>
               <p class="text-sm leading-relaxed text-base-content/80">
-                A back-office management platform for hotel operations including
-                reservations, campaign management, and accounting.
+                A habit tracking app designed to help users build and maintain
+                positive habits through gamification and progress visualization.
               </p>
             </div>
           </div>
@@ -305,8 +305,8 @@ useSeo()
           >
             <div class="relative aspect-[4/3] overflow-hidden">
               <img
-                src="/images/product-2.png"
-                alt="Picasso Restaurant"
+                src="/images/pablo-1.png"
+                alt="Pablo Restaurant"
                 class="h-full w-full object-cover object-center grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               />
               <div
@@ -315,7 +315,7 @@ useSeo()
             </div>
             <div class="flex flex-1 flex-col gap-2 p-5 sm:p-6">
               <span class="text-xs font-bold text-orange-500">#02</span>
-              <h3 class="text-lg font-bold text-white sm:text-xl">Picasso Restaurant</h3>
+              <h3 class="text-lg font-bold text-white sm:text-xl">Pablo Restaurant</h3>
               <p class="text-sm leading-relaxed text-base-content/80">
                 An online menu and ordering system designed to streamline the
                 restaurant experience and reduce wait times.
@@ -331,8 +331,8 @@ useSeo()
           >
             <div class="relative aspect-[4/3] overflow-hidden">
               <img
-                src="/images/product-3.png"
-                alt="Picasso Landing Page"
+                src="/images/samwedding-1.png"
+                alt="Sam Wedding"
                 class="h-full w-full object-cover object-center grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               />
               <div
@@ -342,11 +342,12 @@ useSeo()
             <div class="flex flex-1 flex-col gap-2 p-5 sm:p-6">
               <span class="text-xs font-bold text-orange-500">#03</span>
               <h3 class="text-lg font-bold text-white sm:text-xl">
-                Picasso Landing Page
+                Sam Wedding
               </h3>
               <p class="text-sm leading-relaxed text-base-content/80">
-                A high-impact hotel landing page and promotional hub designed to
-                drive conversions and brand awareness.
+                A wedding invitation website with RSVP functionality, designed
+                to provide guests with all the necessary information and a
+                seamless response experience.
               </p>
             </div>
           </div>
