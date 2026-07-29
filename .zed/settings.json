@@ -1,0 +1,33 @@
+{
+  "format_on_save": "on",
+  "formatter": {
+    "eslint": "prettier"
+  },
+  "lsp": {
+    "eslint": {
+      "settings": {
+        "eslint.validate": ["vue", "typescript", "javascript", "typescriptreact", "javascriptreact"]
+      }
+    },
+    "vtsls": {
+      "settings": {
+        "typescript.format.enable": false,
+        "javascript.format.enable": false
+      }
+    }
+  },
+  "languages": {
+    "Vue": {
+      "format_on_save": "on",
+      "formatter": "prettier"
+    },
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": "prettier"
+    },
+    "JavaScript": {
+      "format_on_save": "on",
+      "formatter": "prettier"
+    }
+  }
+}

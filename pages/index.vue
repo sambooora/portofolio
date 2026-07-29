@@ -13,11 +13,7 @@ useSeo()
     >
       <!-- Background image + gradient overlay -->
       <div class="absolute inset-0">
-        <img
-          src="/images/hero-1.jpg"
-          alt=""
-          class="h-full w-full object-cover object-center"
-        />
+        <img src="/images/hero-1.jpg" alt="" class="h-full w-full object-cover object-center" />
         <div
           class="absolute inset-0 bg-gradient-to-r from-base-100 via-base-100/95 to-orange-500/20"
         />
@@ -28,7 +24,6 @@ useSeo()
       <div
         class="container relative z-10 mx-auto flex flex-1 flex-col justify-end px-5 pb-8 pt-24 sm:px-6 sm:pb-16 sm:pt-32 md:px-10 lg:px-16"
       >
-
         <!-- Main heading + subtext row -->
         <div class="flex flex-col gap-6 sm:gap-10 lg:flex-row lg:items-end lg:justify-between">
           <div data-aos="fade-up" data-aos-duration="800" class="max-w-4xl">
@@ -46,8 +41,8 @@ useSeo()
             data-aos-duration="800"
             class="max-w-sm text-sm leading-relaxed text-base-content/80 sm:text-base lg:text-right"
           >
-            Great design should feel invisible. From UI to code, I build digital
-            experiences that connect and convert.
+            Great design should feel invisible. From UI to code, I build digital experiences that
+            connect and convert.
           </p>
         </div>
 
@@ -59,27 +54,19 @@ useSeo()
         >
           <div class="flex flex-col gap-1">
             <span class="text-lg font-bold text-orange-500 sm:text-4xl">#01</span>
-            <span class="text-sm font-medium text-base-content/90"
-              >UI/UX Design</span
-            >
+            <span class="text-sm font-medium text-base-content/90">UI/UX Design</span>
           </div>
           <div class="flex flex-col gap-1">
             <span class="text-lg font-bold text-orange-500 sm:text-4xl">#02</span>
-            <span class="text-sm font-medium text-base-content/90"
-              >Front-End Development</span
-            >
+            <span class="text-sm font-medium text-base-content/90">Front-End Development</span>
           </div>
           <div class="flex flex-col gap-1">
             <span class="text-lg font-bold text-orange-500 sm:text-4xl">#03</span>
-            <span class="text-sm font-medium text-base-content/90"
-              >Brand Identity</span
-            >
+            <span class="text-sm font-medium text-base-content/90">Brand Identity</span>
           </div>
           <div class="flex flex-col gap-1">
             <span class="text-lg font-bold text-orange-500 sm:text-4xl">#04</span>
-            <span class="text-sm font-medium text-base-content/90"
-              >Creative Direction</span
-            >
+            <span class="text-sm font-medium text-base-content/90">Creative Direction</span>
           </div>
         </div>
       </div>
@@ -108,9 +95,7 @@ useSeo()
           <span class="text-sm font-bold tracking-wide text-base-content/50 sm:text-lg"
             >JOGJANODE</span
           >
-          <span class="text-sm font-bold tracking-wide text-base-content/50 sm:text-lg"
-            >CGV</span
-          >
+          <span class="text-sm font-bold tracking-wide text-base-content/50 sm:text-lg">CGV</span>
         </div>
       </div>
     </section>
@@ -120,7 +105,9 @@ useSeo()
     <!-- ============================================ -->
     <section class="relative bg-base-100 py-16 sm:py-24 md:py-32 overflow-hidden">
       <!-- Background orange glow accents -->
-      <div class="absolute -bottom-32 -right-32 h-72 w-72 rounded-full bg-orange-500/50 blur-[120px] sm:h-96 sm:w-96" />
+      <div
+        class="absolute -bottom-32 -right-32 h-72 w-72 rounded-full bg-orange-500/50 blur-[120px] sm:h-96 sm:w-96"
+      />
       <div class="absolute -top-20 -left-20 h-48 w-48 rounded-full bg-orange-500/20 blur-[100px]" />
 
       <div class="container relative z-10 mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
@@ -130,7 +117,9 @@ useSeo()
           class="relative rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 backdrop-blur-xl sm:rounded-3xl sm:p-10 md:p-12 lg:p-16"
         >
           <!-- Inner subtle glow -->
-          <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-orange-500/10 via-transparent to-transparent sm:rounded-3xl" />
+          <div
+            class="absolute inset-0 rounded-2xl bg-gradient-to-br from-orange-500/10 via-transparent to-transparent sm:rounded-3xl"
+          />
 
           <!-- Top row: label + number -->
           <div class="relative flex items-center justify-between mb-10 sm:mb-14">
@@ -139,7 +128,9 @@ useSeo()
             >
               Behind the Designs
             </span>
-            <span class="text-xs font-medium tracking-widest text-base-content/30 sm:text-sm">001</span>
+            <span class="text-xs font-medium tracking-widest text-base-content/30 sm:text-sm"
+              >001</span
+            >
           </div>
 
           <!-- Main content grid -->
@@ -150,7 +141,9 @@ useSeo()
               <div class="flex items-center gap-5 sm:gap-6">
                 <!-- Small circular profile image -->
                 <div class="relative flex-shrink-0">
-                  <div class="h-24 w-24 overflow-hidden rounded-full border-2 border-white/10 sm:h-28 sm:w-28">
+                  <div
+                    class="h-24 w-24 overflow-hidden rounded-full border-2 border-white/10 sm:h-28 sm:w-28"
+                  >
                     <img
                       src="/images/profile-1.png"
                       alt="Profile"
@@ -169,8 +162,7 @@ useSeo()
               <h2
                 class="mt-2 text-3xl font-bold leading-[1.05] tracking-tight text-white sm:text-4xl md:text-[2.75rem]"
               >
-                Shaping Experiences
-                That Make Life
+                Shaping Experiences That Make Life
                 <span class="text-orange-500">Simpler</span>
               </h2>
 
@@ -207,22 +199,32 @@ useSeo()
               </p>
 
               <p class="text-sm leading-relaxed text-base-content/40 sm:text-base">
-                With a passion for great typography, motion, and interaction design, I craft
-                digital products that not only look stunning but truly work for people. I believe
-                in simplicity, attention to detail, and putting the user first in every decision.
+                With a passion for great typography, motion, and interaction design, I craft digital
+                products that not only look stunning but truly work for people. I believe in
+                simplicity, attention to detail, and putting the user first in every decision.
               </p>
 
               <!-- Stats in glass cards -->
               <div class="mt-4 grid grid-cols-3 gap-3 sm:gap-4">
-                <div class="rounded-xl border border-white/[0.06] bg-white/[0.03] px-4 py-5 backdrop-blur-sm sm:px-5 sm:py-6">
+                <div
+                  class="rounded-xl border border-white/[0.06] bg-white/[0.03] px-4 py-5 backdrop-blur-sm sm:px-5 sm:py-6"
+                >
                   <span class="text-2xl font-extrabold text-white sm:text-3xl">5+</span>
-                  <p class="mt-1.5 text-[0.65rem] text-base-content/40 sm:text-xs">Years Experience</p>
+                  <p class="mt-1.5 text-[0.65rem] text-base-content/40 sm:text-xs">
+                    Years Experience
+                  </p>
                 </div>
-                <div class="rounded-xl border border-white/[0.06] bg-white/[0.03] px-4 py-5 backdrop-blur-sm sm:px-5 sm:py-6">
+                <div
+                  class="rounded-xl border border-white/[0.06] bg-white/[0.03] px-4 py-5 backdrop-blur-sm sm:px-5 sm:py-6"
+                >
                   <span class="text-2xl font-extrabold text-white sm:text-3xl">8+</span>
-                  <p class="mt-1.5 text-[0.65rem] text-base-content/40 sm:text-xs">Projects Delivered</p>
+                  <p class="mt-1.5 text-[0.65rem] text-base-content/40 sm:text-xs">
+                    Projects Delivered
+                  </p>
                 </div>
-                <div class="rounded-xl border border-white/[0.06] bg-white/[0.03] px-4 py-5 backdrop-blur-sm sm:px-5 sm:py-6">
+                <div
+                  class="rounded-xl border border-white/[0.06] bg-white/[0.03] px-4 py-5 backdrop-blur-sm sm:px-5 sm:py-6"
+                >
                   <span class="text-2xl font-extrabold text-white sm:text-3xl">3</span>
                   <p class="mt-1.5 text-[0.65rem] text-base-content/40 sm:text-xs">Companies</p>
                 </div>
@@ -257,15 +259,13 @@ useSeo()
             >
               Selected Work
             </span>
-            <h2
-              class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl"
-            >
+            <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
               Latest Projects
             </h2>
           </div>
           <p class="max-w-sm text-sm text-base-content/80 sm:text-base">
-            A curated selection of projects showcasing UI design, front-end
-            development, and creative problem solving.
+            A curated selection of projects showcasing UI design, front-end development, and
+            creative problem solving.
           </p>
         </div>
 
@@ -291,8 +291,8 @@ useSeo()
               <span class="text-xs font-bold text-orange-500">#01</span>
               <h3 class="text-lg font-bold text-white sm:text-xl">HabitFuel</h3>
               <p class="text-sm leading-relaxed text-base-content/80">
-                A habit tracking app designed to help users build and maintain
-                positive habits through gamification and progress visualization.
+                A habit tracking app designed to help users build and maintain positive habits
+                through gamification and progress visualization.
               </p>
             </div>
           </div>
@@ -317,8 +317,8 @@ useSeo()
               <span class="text-xs font-bold text-orange-500">#02</span>
               <h3 class="text-lg font-bold text-white sm:text-xl">Pablo Restaurant</h3>
               <p class="text-sm leading-relaxed text-base-content/80">
-                An online menu and ordering system designed to streamline the
-                restaurant experience and reduce wait times.
+                An online menu and ordering system designed to streamline the restaurant experience
+                and reduce wait times.
               </p>
             </div>
           </div>
@@ -341,13 +341,10 @@ useSeo()
             </div>
             <div class="flex flex-1 flex-col gap-2 p-5 sm:p-6">
               <span class="text-xs font-bold text-orange-500">#03</span>
-              <h3 class="text-lg font-bold text-white sm:text-xl">
-                Sam Wedding
-              </h3>
+              <h3 class="text-lg font-bold text-white sm:text-xl">Sam Wedding</h3>
               <p class="text-sm leading-relaxed text-base-content/80">
-                A wedding invitation website with RSVP functionality, designed
-                to provide guests with all the necessary information and a
-                seamless response experience.
+                A wedding invitation website with RSVP functionality, designed to provide guests
+                with all the necessary information and a seamless response experience.
               </p>
             </div>
           </div>
@@ -360,9 +357,7 @@ useSeo()
     <!-- ============================================ -->
     <section class="bg-base-100 py-16 sm:py-24 md:py-32">
       <div class="container mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
-        <div
-          class="flex flex-col gap-8 sm:gap-12 lg:flex-row lg:gap-24"
-        >
+        <div class="flex flex-col gap-8 sm:gap-12 lg:flex-row lg:gap-24">
           <!-- Left: heading -->
           <div data-aos="fade-right" class="lg:w-5/12">
             <span
@@ -370,14 +365,12 @@ useSeo()
             >
               Career Path
             </span>
-            <h2
-              class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl"
-            >
+            <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
               Experience
             </h2>
             <p class="mt-3 text-sm leading-relaxed text-base-content/80 sm:mt-4 sm:text-base">
-              A timeline of roles where I honed my craft across design,
-              development, and technical operations.
+              A timeline of roles where I honed my craft across design, development, and technical
+              operations.
             </p>
           </div>
 
@@ -404,12 +397,11 @@ useSeo()
               </div>
               <div class="collapse-content">
                 <p class="leading-relaxed text-base-content/70">
-                  Developed and maintained responsive web applications using
-                  Nuxt.js and Tailwind CSS. Integrated RESTful APIs to create
-                  dynamic, data-driven interfaces. Focused on performance
-                  optimization, reusable components, and clean code practices.
-                  Collaborated closely with designers and back-end developers to
-                  deliver seamless user experiences in agile environments.
+                  Developed and maintained responsive web applications using Nuxt.js and Tailwind
+                  CSS. Integrated RESTful APIs to create dynamic, data-driven interfaces. Focused on
+                  performance optimization, reusable components, and clean code practices.
+                  Collaborated closely with designers and back-end developers to deliver seamless
+                  user experiences in agile environments.
                 </p>
               </div>
             </div>
@@ -429,11 +421,10 @@ useSeo()
               </div>
               <div class="collapse-content">
                 <p class="leading-relaxed text-base-content/70">
-                  Worked on web design projects including responsive mobile
-                  layouts. From wireframes to mockups to production HTML/SCSS,
-                  bridging the gap between design and development. Being both
-                  designer and developer gave me deep insight into what works
-                  effectively in both worlds.
+                  Worked on web design projects including responsive mobile layouts. From wireframes
+                  to mockups to production HTML/SCSS, bridging the gap between design and
+                  development. Being both designer and developer gave me deep insight into what
+                  works effectively in both worlds.
                 </p>
               </div>
             </div>
@@ -453,10 +444,9 @@ useSeo()
               </div>
               <div class="collapse-content">
                 <p class="leading-relaxed text-base-content/70">
-                  Maintained and troubleshot film equipment (projectors, servers,
-                  sound systems) and IT assets. Managed company networking
-                  including routing, switching, and firewall configuration.
-                  Built a strong foundation in technical operations and
+                  Maintained and troubleshot film equipment (projectors, servers, sound systems) and
+                  IT assets. Managed company networking including routing, switching, and firewall
+                  configuration. Built a strong foundation in technical operations and
                   problem-solving.
                 </p>
               </div>
@@ -478,17 +468,13 @@ useSeo()
           >
             What I Do
           </span>
-          <h2
-            class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl"
-          >
+          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
             Services &amp; Skills
           </h2>
         </div>
 
         <!-- Services grid -->
-        <div
-          class="mb-12 grid grid-cols-1 gap-4 sm:mb-20 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4"
-        >
+        <div class="mb-12 grid grid-cols-1 gap-4 sm:mb-20 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           <div
             data-aos="fade-up"
             data-aos-delay="0"
@@ -500,8 +486,8 @@ useSeo()
             >
             <h3 class="mb-2 text-lg font-bold text-white sm:mb-3 sm:text-xl">UI/UX Design</h3>
             <p class="text-sm leading-relaxed text-base-content/80">
-              User-centered design thinking applied to create intuitive,
-              accessible, and visually refined interfaces.
+              User-centered design thinking applied to create intuitive, accessible, and visually
+              refined interfaces.
             </p>
           </div>
 
@@ -518,8 +504,8 @@ useSeo()
               Front-End Development
             </h3>
             <p class="text-sm leading-relaxed text-base-content/80">
-              Pixel-perfect implementation with Vue, Nuxt, and modern CSS
-              frameworks. Performance-first approach.
+              Pixel-perfect implementation with Vue, Nuxt, and modern CSS frameworks.
+              Performance-first approach.
             </p>
           </div>
 
@@ -534,8 +520,8 @@ useSeo()
             >
             <h3 class="mb-2 text-lg font-bold text-white sm:mb-3 sm:text-xl">Brand Identity</h3>
             <p class="text-sm leading-relaxed text-base-content/80">
-              Crafting cohesive visual identities that communicate your brand's
-              values and resonate with your audience.
+              Crafting cohesive visual identities that communicate your brand's values and resonate
+              with your audience.
             </p>
           </div>
 
@@ -548,12 +534,10 @@ useSeo()
               class="mb-4 inline-block text-2xl font-extrabold text-orange-500 sm:mb-6 sm:text-3xl"
               >04</span
             >
-            <h3 class="mb-2 text-lg font-bold text-white sm:mb-3 sm:text-xl">
-              Creative Direction
-            </h3>
+            <h3 class="mb-2 text-lg font-bold text-white sm:mb-3 sm:text-xl">Creative Direction</h3>
             <p class="text-sm leading-relaxed text-base-content/80">
-              Strategic vision and art direction to ensure every touchpoint
-              tells a unified, compelling story.
+              Strategic vision and art direction to ensure every touchpoint tells a unified,
+              compelling story.
             </p>
           </div>
         </div>
@@ -562,17 +546,13 @@ useSeo()
         <div class="grid grid-cols-1 gap-8 sm:gap-12 md:grid-cols-2">
           <!-- Design skills -->
           <div data-aos="fade-right">
-            <h3
-              class="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-orange-500"
-            >
+            <h3 class="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
               Design Tools
             </h3>
             <div class="flex flex-col gap-5">
               <div>
                 <div class="mb-2 flex items-center justify-between">
-                  <span class="text-sm font-medium text-white"
-                    >Figma &amp; Adobe XD</span
-                  >
+                  <span class="text-sm font-medium text-white">Figma &amp; Adobe XD</span>
                   <span class="text-xs text-base-content/50">UI Design</span>
                 </div>
                 <div class="h-1 w-full overflow-hidden rounded-full bg-base-content/10">
@@ -584,12 +564,8 @@ useSeo()
               </div>
               <div>
                 <div class="mb-2 flex items-center justify-between">
-                  <span class="text-sm font-medium text-white"
-                    >Adobe Photoshop</span
-                  >
-                  <span class="text-xs text-base-content/50"
-                    >Image Processing</span
-                  >
+                  <span class="text-sm font-medium text-white">Adobe Photoshop</span>
+                  <span class="text-xs text-base-content/50">Image Processing</span>
                 </div>
                 <div class="h-1 w-full overflow-hidden rounded-full bg-base-content/10">
                   <div
@@ -600,12 +576,8 @@ useSeo()
               </div>
               <div>
                 <div class="mb-2 flex items-center justify-between">
-                  <span class="text-sm font-medium text-white"
-                    >CorelDRAW</span
-                  >
-                  <span class="text-xs text-base-content/50"
-                    >Vector Graphics</span
-                  >
+                  <span class="text-sm font-medium text-white">CorelDRAW</span>
+                  <span class="text-xs text-base-content/50">Vector Graphics</span>
                 </div>
                 <div class="h-1 w-full overflow-hidden rounded-full bg-base-content/10">
                   <div
@@ -619,17 +591,13 @@ useSeo()
 
           <!-- Coding skills -->
           <div data-aos="fade-left">
-            <h3
-              class="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-orange-500"
-            >
+            <h3 class="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
               Development
             </h3>
             <div class="flex flex-col gap-5">
               <div>
                 <div class="mb-2 flex items-center justify-between">
-                  <span class="text-sm font-medium text-white"
-                    >Vue &amp; Nuxt</span
-                  >
+                  <span class="text-sm font-medium text-white">Vue &amp; Nuxt</span>
                   <span class="text-xs text-base-content/50">JavaScript</span>
                 </div>
                 <div class="h-1 w-full overflow-hidden rounded-full bg-base-content/10">
@@ -653,9 +621,7 @@ useSeo()
               </div>
               <div>
                 <div class="mb-2 flex items-center justify-between">
-                  <span class="text-sm font-medium text-white"
-                    >Tailwind &amp; Bootstrap</span
-                  >
+                  <span class="text-sm font-medium text-white">Tailwind &amp; Bootstrap</span>
                   <span class="text-xs text-base-content/50">CSS</span>
                 </div>
                 <div class="h-1 w-full overflow-hidden rounded-full bg-base-content/10">

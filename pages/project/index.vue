@@ -103,11 +103,7 @@ useSeo({ title: 'Project' })
               <!-- Content: two-column split, alternating image side -->
               <div
                 class="relative flex flex-col"
-                :class="[
-                  i % 2 === 0
-                    ? 'lg:flex-row'
-                    : 'lg:flex-row-reverse'
-                ]"
+                :class="[i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse']"
               >
                 <!-- Image column -->
                 <div class="relative w-full lg:w-1/2">
@@ -123,7 +119,7 @@ useSeo({ title: 'Project' })
                       :class="[
                         i % 2 === 0
                           ? 'lg:bg-gradient-to-r lg:from-transparent lg:to-base-100/40'
-                          : 'lg:bg-gradient-to-l lg:from-transparent lg:to-base-100/40'
+                          : 'lg:bg-gradient-to-l lg:from-transparent lg:to-base-100/40',
                       ]"
                     />
 
@@ -139,9 +135,13 @@ useSeo({ title: 'Project' })
                 </div>
 
                 <!-- Text column -->
-                <div class="flex w-full flex-col justify-center p-6 sm:p-8 md:p-10 lg:w-1/2 lg:p-12 xl:p-16">
+                <div
+                  class="flex w-full flex-col justify-center p-6 sm:p-8 md:p-10 lg:w-1/2 lg:p-12 xl:p-16"
+                >
                   <!-- Project number (desktop, inline) -->
-                  <span class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-orange-500 sm:mb-4 sm:text-sm">
+                  <span
+                    class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-orange-500 sm:mb-4 sm:text-sm"
+                  >
                     Project {{ String(i + 1).padStart(2, '0') }}
                   </span>
 
@@ -200,18 +200,13 @@ useSeo({ title: 'Project' })
       />
 
       <div class="container relative z-10 mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
-        <div
-          data-aos="fade-up"
-          class="mx-auto flex max-w-2xl flex-col items-center text-center"
-        >
+        <div data-aos="fade-up" class="mx-auto flex max-w-2xl flex-col items-center text-center">
           <span
             class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-orange-500 sm:mb-4 sm:text-sm"
           >
             Let's Collaborate
           </span>
-          <h2
-            class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl"
-          >
+          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
             Have a project in
             <span class="text-orange-500">mind?</span>
           </h2>
@@ -234,11 +229,7 @@ useSeo({ title: 'Project' })
               stroke="currentColor"
               stroke-width="2"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </NuxtLink>
         </div>
